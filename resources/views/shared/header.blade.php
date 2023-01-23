@@ -2,7 +2,7 @@
         <div class="max-w-7xl mx-auto py-8 flex flex-row justify-between">
             <div>
                 <a class="group flex flex-row gap-4 items-center text-gray-200 text-xl font-astronomus font-bold uppercase" href="/">
-                    <img class="h-10" src="/images/svg/mscc-logo.svg" />
+                    <img class="h-10" src="/images/SVG/mscc-logo.svg" />
                     <span>Developers Conference <span class="text-mustard">2023</span></span>
                 </a>
             </div>
@@ -24,7 +24,7 @@
         <img class="absolute" src="/images/SVG/space-dots.svg" />
 
         <div class="grid place-items-center">
-            <img class="pt-16 object-center w-[400px]" src="/images/png/planets.png" />
+            <img class="pt-16 object-center w-[400px]" src="/images/PNG/planets.png" />
 
         <div class="mt-8 text-gray-200 font-bold font-spotnik uppercase">
             Innovation •
