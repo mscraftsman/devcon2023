@@ -1,0 +1,28 @@
+{
+  "resources/fonts/spotnik.woff": {
+    "file": "assets/spotnik-67a743fc.woff",
+    "src": "resources/fonts/spotnik.woff"
+  },
+  "resources/fonts/astronomus.woff2": {
+    "file": "assets/astronomus-f86972ff.woff2",
+    "src": "resources/fonts/astronomus.woff2"
+  },
+  "resources/fonts/astronomus.ttf": {
+    "file": "assets/astronomus-ef9a1b85.ttf",
+    "src": "resources/fonts/astronomus.ttf"
+  },
+  "resources/fonts/spotnik.ttf": {
+    "file": "assets/spotnik-3c7bf4dc.ttf",
+    "src": "resources/fonts/spotnik.ttf"
+  },
+  "resources/css/app.css": {
+    "file": "assets/app-af8aedbd.css",
+    "src": "resources/css/app.css",
+    "isEntry": true
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-67da601c.js",
+    "src": "resources/js/app.js",
+    "isEntry": true
+  }
+}

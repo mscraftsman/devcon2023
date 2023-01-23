@@ -5,12 +5,14 @@
 @layer base {
     @font-face {
         font-family: 'Astronomus';
-        src: url('fonts/astronomus.woff') format('woff'),
-             url('fonts/astronomus.woff2') format('woff2');
+        src: url('../fonts/astronomus.woff2') format('woff2'),
+             url('../fonts/astronomus.woff') format('woff'),
+             url('../fonts/astronomus.woff2') format('woff2');
     }
 
     @font-face {
         font-family: 'Spotnik';
-        src: url('fonts/spotnik.woff') format('woff');
+        src: url('../fonts/spotnik.woff') format('woff'),
+             url('../fonts/spotnik.ttf') format('ttf');
     }
 }
