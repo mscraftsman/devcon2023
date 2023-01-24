@@ -20,7 +20,7 @@
     <section class="relative bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-[#2F2052] to-[#191029]">
 
         <!-- <div class="absolute bg-repeat bg-repeat-y" style="background-image: url('/images/SVG/space-dots.svg')"></div> -->
-        <img class="mt-96 absolute" src="/images/SVG/space-dots.svg" />
+        <img class="mt-72 absolute" src="/images/SVG/space-dots.svg" />
         <img class="absolute" src="/images/SVG/space-dots.svg" />
 
         <div class="grid place-items-center">
