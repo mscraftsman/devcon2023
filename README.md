@@ -20,6 +20,12 @@ Create an `.env` file.
 docker exec devcon2023-app cp .env.example .env
 ```
 
+Install dependencies.
+
+```
+docker exec devcon2023-app composer install
+```
+
 Set an application key.
 
 ```
