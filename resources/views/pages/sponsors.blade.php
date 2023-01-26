@@ -26,6 +26,10 @@
             <img class="w-20" src="/images/png/venus.png" />
         </div>
 
+        <div class="py-8 flex flex-row justify-center">
+            <img class="h-24" src="{{ asset('images/sponsors/sdworx.svg') }}" />
+        </div>
+
         <!-- Platinum Tier -->
 
         <div class="mt-10 grid grid-cols-3 gap-2 place-items-center">
