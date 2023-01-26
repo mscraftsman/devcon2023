@@ -15,4 +15,8 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('home');
-});
+})->name('home');
+
+Route::get('/code-of-conduct', function () {
+    return view('conduct');
+})->name('code-of-conduct');

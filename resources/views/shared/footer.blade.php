@@ -13,10 +13,10 @@
     </h3>
 
     <nav class="mt-8 flex flex-row gap-6 text-sm text-gray-100 uppercase">
-        <a class="hover:text-mustard transition hover:ease-in-out duration-300" href="#">Code of conduct</a>
-        <a class="hover:text-mustard transition hover:ease-in-out duration-300" href="#">Become a sponsor</a>
-        <a class="hover:text-mustard transition hover:ease-in-out duration-300" href="#">Extras</a>
-        <a class="hover:text-mustard transition hover:ease-in-out duration-300" href="#">Our Squad Team</a>
+        <a class="hover:text-mustard transition hover:ease-in-out duration-300" href="{{ route('code-of-conduct') }}">Code of conduct</a>
+        <a class="hover:text-mustard transition hover:ease-in-out duration-300" href="https://drive.google.com/file/d/1GQY5WElMktXO7JLxgYJq8tWDuKVFra9A/view?usp=share_link">Become a sponsor</a>
+        <a class="hover:text-mustard transition hover:ease-in-out duration-300 hidden" href="#">Extras</a>
+        <a class="hover:text-mustard transition hover:ease-in-out duration-300 hidden" href="#">Our Squad Team</a>
     </nav>
 </div>
 
