@@ -1,7 +1,7 @@
 <footer class="relative">
 
 <div class="absolute -mt-32 right-0">
-    <img class="w-[360px]" src="/images/PNG/astronaut-flag.png" />
+    <img class="w-[360px]" src="/images/png/astronaut-flag.png" />
 </div>
 
 <div class="mt-16 absolute w-full bg-[#000] h-[220px] skew-y-6"></div>
