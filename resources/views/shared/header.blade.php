@@ -2,16 +2,16 @@
         <div class="max-w-7xl mx-auto py-8 flex flex-row justify-between">
             <div>
                 <a class="group flex flex-row gap-4 items-center text-gray-200 text-xl font-astronomus font-bold uppercase" href="/">
-                    <img class="h-10" src="/images/SVG/mscc-logo.svg" />
+                    <img class="h-10" src="/images/svg/mscc-logo.svg" />
                     <span>Developers Conference <span class="text-mustard">2023</span></span>
                 </a>
             </div>
             <div class="flex flex-row gap-8 items-center text-gray-100 text-sm font-bold font-spotnik uppercase">
-                <a class="hover:text-mustard transition hover:ease-in-out duration-300" href="#">Agenda</a>
-                <a class="hover:text-mustard transition hover:ease-in-out duration-300" href="#">Speakers</a>
-                <a class="hover:text-mustard transition hover:ease-in-out duration-300" href="#">Community</a>
-                <a class="hover:text-mustard transition hover:ease-in-out duration-300" href="#">Extras</a>
-                <a class="bg-red-600 px-2 py-2 hover:bg-red-700 transition hover:ease-in-out duration-500" href="#">Call for Paper</a>
+                <a class="hover:text-mustard transition hover:ease-in-out duration-300 hidden" href="#">Agenda</a>
+                <a class="hover:text-mustard transition hover:ease-in-out duration-300 hidden" href="#">Speakers</a>
+                <a class="hover:text-mustard transition hover:ease-in-out duration-300 hidden" href="#">Community</a>
+                <a class="hover:text-mustard transition hover:ease-in-out duration-300 hidden" href="#">Extras</a>
+                <a class="bg-red-600 px-2 py-2 hover:bg-red-700 transition hover:ease-in-out duration-500" href="https://sessionize.com/developers-conference-2023/">Call for Paper</a>
             </div>
         </div>
     </nav>
@@ -20,11 +20,11 @@
     <section class="relative bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-[#2F2052] to-[#191029]">
 
         <!-- <div class="absolute bg-repeat bg-repeat-y" style="background-image: url('/images/SVG/space-dots.svg')"></div> -->
-        <img class="mt-72 absolute" src="/images/SVG/space-dots.svg" />
-        <img class="absolute" src="/images/SVG/space-dots.svg" />
+        <img class="mt-72 absolute" src="/images/svg/space-dots.svg" />
+        <img class="absolute" src="/images/svg/space-dots.svg" />
 
         <div class="grid place-items-center">
-            <img class="pt-16 object-center w-[400px]" src="/images/PNG/planets.png" />
+            <img class="pt-16 object-center w-[400px]" src="/images/png/planets.png" />
 
         <div class="mt-8 text-gray-200 font-bold font-spotnik uppercase">
             Innovation •

@@ -7,7 +7,7 @@
 <div class="mt-16 absolute w-full bg-[#000] h-[220px] skew-y-6"></div>
 
 <div class="absolute w-full bg-[#000] mt-44 pb-24 grid place-items-center">
-    <img class="w-20" src="/images/SVG/mscc-logo.svg" />
+    <img class="w-20" src="/images/svg/mscc-logo.svg" />
     <h3 class="mt-2 text-center text-xl text-mustard font-astronomus uppercase">
         Mauritius Software Craftsmanship Community
     </h3>
