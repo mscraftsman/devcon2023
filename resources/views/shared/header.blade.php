@@ -4,7 +4,7 @@
 		<div class="max-w-7xl mx-auto py-8 flex flex-row justify-between">
 				<div>
 						<a class="group flex flex-row gap-4 items-center text-gray-200 text-xl font-astronomus font-bold uppercase" href="/">
-								<img class="h-10" src="/images/svg/mscc-logo.svg" />
+								<img class="h-10" src="{{ asset('images/svg/mscc-logo.svg') }}" />
 								<span>Developers Conference <span class="text-mustard">2023</span></span>
 						</a>
 				</div>

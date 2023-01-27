@@ -1,8 +1,3 @@
-FROM node:latest as build
-WORKDIR /app
-COPY . /app
-RUN npm install && npm run build
-
 FROM php:8.2-apache-bullseye as production
 
 ENV APP_NAME="Developers Conference 2023"
@@ -15,7 +10,7 @@ WORKDIR /app
 RUN docker-php-ext-configure opcache --enable-opcache
 
 COPY docker/vhost.conf /etc/apache2/sites-available/000-default.conf
-COPY --from=build /app /app
+COPY . /app
 COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
 
 RUN cd /app && php artisan config:cache && \
