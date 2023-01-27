@@ -1,5 +1,3 @@
-@vite(['resources/scss/app.scss'])
-
 <footer class="space--footer">
 	<div class="footer--bg-1">
 		<img src="/images/SVG/footer-bg-1.svg" alt="">

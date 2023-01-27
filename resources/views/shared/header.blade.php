@@ -1,5 +1,3 @@
-@vite(['resources/scss/app.scss'])
-
 <nav class="bg-[#000]">
 		<div class="max-w-7xl mx-auto py-8 flex flex-row justify-between">
 				<div>
