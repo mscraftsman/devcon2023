@@ -18,7 +18,9 @@ COPY docker/vhost.conf /etc/apache2/sites-available/000-default.conf
 COPY --from=build /app /app
 COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
 
-RUN chmod 775 -R /app/storage && \
+RUN cd /app && php artisan config:cache && \
+    php artisan route:cache && \
+    chmod 775 -R /app/storage && \
     chown -R www-data:www-data /app && \
     cp .env.example .env && \
     php artisan key:generate && \
