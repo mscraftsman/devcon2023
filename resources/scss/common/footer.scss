@@ -1,17 +1,81 @@
 
+$starFieldWidth: 2560;
+$starFieldHeight: 2000;
+$starStartOffset: 600px;
+
+$starOneScrollDuration: 75s;
+$starTwoScrollDuration: 125s;
+$starThreeScrollDuration: 175s;
+$numStarOneStars: 1700;
+$numStarTwoStars: 700;
+$numStarThreeStars: 200;
+$width: 100%;
+
+// https: //codepen.io/dannyrb/pen/ORqvey
+
+// n is number of stars required
+@function multiple-box-shadow ($n) {
+	// First star
+	$stars: "#{random($starFieldWidth)}px #{random($starFieldHeight)}px #FFF";
+
+	@for $i from 2 through $n {
+		// Iterate through and append stars to string
+		$stars: "#{$stars} , #{random($starFieldWidth)}px #{random($starFieldHeight)}px #FFF";
+	}
+
+	// Return all generated stars
+	@return unquote($stars);
+}
+
+
+@mixin star-template($numStars, $starSize, $scrollSpeed) {
+	z-index: 10;
+	width: $starSize;
+	height: $starSize;
+	background: transparent;
+	box-shadow: multiple-box-shadow($numStars);
+	animation: animStar $scrollSpeed linear infinite;
+
+	&:after {
+		content: " ";
+		top: -$starStartOffset;
+		width: $starSize;
+		height: $starSize;
+		position: absolute;
+		background: transparent;
+		box-shadow: multiple-box-shadow($numStars);
+	}
+}
+
+
+@keyframes animStar {
+	from {
+		transform: translateY(0px);
+	}
+
+	to {
+		transform: translateY(-#{$starFieldHeight}px);
+	}
+}
+
 .space--footer {
 	width: 100%;
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
 	overflow: hidden;
+	height: 480px;
 
 	.footer--bg-1 {
 		display: flex;
+		align-items: flex-end;
 		width: 100%;
 		grid-column: 1 / 3;
 		grid-row: 1 / 7;
 		z-index: 1;
+		background-repeat: no-repeat;
+		background-position: top center;
+		background-size: 101%;
 
 		img {
 			width: 100%;
@@ -19,12 +83,36 @@
 		}
 	}
 
+	.footer--stars {
+		grid-column: 1 / 3;
+		grid-row: 1 / 7;
+		position: relative;
+		z-index: 1;
+
+
+		.stars {
+			@include star-template($numStarOneStars, 1px, $starOneScrollDuration);
+		}
+
+		.stars2 {
+			@include star-template($numStarTwoStars, 2px, $starTwoScrollDuration);
+		}
+
+		.stars3 {
+			@include star-template($numStarThreeStars, 3px, $starThreeScrollDuration);
+		}
+	}
+
 	.footer--bg-2 {
 		display: flex;
+		align-items: flex-end;
 		width: 100%;
 		grid-column: 1 / 3;
 		grid-row: 3 / 7;
 		z-index: 2;
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-size: cover;
 
 		img {
 			width: 100%;
@@ -38,19 +126,20 @@
 		z-index: 3;
 		width: 100%;
 		text-align: center;
-		margin-top: 20px;
+		margin-top: 50px;
 
 
 		.footer-logo {
-			width: 60px;
+			width: 50px;
 			margin: 0 auto;
 		}
 
 		.mscc--text {
 			text-transform: uppercase;
 			font-family: var(--font-astronomous);
-			font-size: 20px;
+			font-size: 18px;
 			margin-top: 15px;
+			text-shadow: 0 0 15px rgba(0, 0, 0, 0.8);
 		}
 
 		.list--menu {
@@ -69,7 +158,13 @@
 					text-transform: uppercase;
 					font-family: var(--font-spotnik);
 					font-weight: 700;
-					font-size: 13px;
+					font-size: 12px;
+					background: black;
+					color: white;
+					display: inline-block;
+					padding: 10px 20px;
+					height: 32px;
+					border-radius: 4px;
 
 					&:hover {
 						text-decoration: underline;
@@ -83,20 +178,40 @@
 @media (max-width: 1024px) {
 
 	.space--footer {
+		height: 400px;
+
 		.footer--bg-1 {
-			img {
-			}
 		}
 	
 		.footer--bg-2 {
-			img {
-				height: 100%;
-				width: auto;
-			}
+			grid-row: 2 / 7;
+		}
+
+		.footer--content {
+			margin-top: 0;
+		}
+	}
+}
+
+@media (max-width: 414px) {
+
+	.space--footer {
+		// height: 400px;
+
+		.footer--bg-1 {
+			background-size: cover;
+		}
+
+		.footer--bg-2 {
+			// grid-row: 2 / 7;
 		}
 
 		.footer--content {
 			// margin-top: 0;
+
+			.mscc--text {
+				font-size: 16px;;
+			}
 		}
 	}
 }

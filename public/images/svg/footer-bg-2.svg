@@ -1,0 +1,19 @@
+<svg width="852" height="220" viewBox="0 0 852 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0_1_3" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="852" height="220">
+<path d="M851.85 0H0V219.22H851.85V0Z" fill="white"/>
+</mask>
+<g mask="url(#mask0_1_3)">
+<mask id="mask1_1_3" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="-34" y="0" width="909" height="234">
+<path d="M865.11 39.15C865.11 39.15 796.17 70.2 640.62 16.28C640.62 16.28 606.54 1.79 539.15 14.91C471.76 28.03 417.23 38.83 340.15 19.57C263.07 0.309998 252.7 -6.45 146.13 7.11C39.56 20.67 3.29 17.48 -33.61 7.7C-36.74 9.11 -12 233.25 -12 233.25L873.24 218.87C873.24 218.87 878.07 37.91 865.11 39.15Z" fill="white"/>
+</mask>
+<g mask="url(#mask1_1_3)">
+<path d="M-40.47 540.81L882.25 538.86L877.41 -179.34L-43.38 -177.39L-40.47 540.81Z" fill="url(#paint0_radial_1_3)"/>
+</g>
+</g>
+<defs>
+<radialGradient id="paint0_radial_1_3" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(419.43 181.296) scale(413.59 417.726)">
+<stop offset="0.06" stop-color="#2F2052"/>
+<stop offset="0.96" stop-color="#191029"/>
+</radialGradient>
+</defs>
+</svg>
