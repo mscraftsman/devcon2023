@@ -1,13 +1,14 @@
 <footer class="space--footer">
-	<div class="footer--bg-1">
-		<img src="/images/svg/footer-bg-1.svg" alt="">
+	<div class="footer--bg-1" style="background-image: url({{ asset('images/svg/footer-bg-2.svg') }});"></div>
+	<div class="footer--stars">
+		<div class="stars"></div>
+  	<div class="stars2"></div>
+  	<div class="stars3"></div>
 	</div>
-	<div class="footer--bg-2">
-		<img src="/images/svg/footer-spaceman.svg" alt="">
-	</div>
+	<div class="footer--bg-2" style="background-image: url({{ asset('images/svg/footer-spaceman-2.svg') }});"></div>
 	<div class="footer--content">
 		<div class="container--fw">
-			<img src="/images/svg/mscc-logo-dark.svg" alt="" class="footer-logo">
+			<img src="{{ asset('images/svg/mscc-logo-dark.svg') }}" alt="" class="footer-logo">
 			<div class="mscc--text">Mauritius Software Craftsmanship Community</div>
 
 			<div class="list--menu">
