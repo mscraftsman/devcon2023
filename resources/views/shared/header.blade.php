@@ -1,18 +1,30 @@
-<nav class="bg-[#000]">
-		<div class="max-w-7xl mx-auto py-8 flex flex-row justify-between">
-				<div>
+<nav class="bg-[#000]" x-data="{ open: false }">
+		<div class="px-6 lg:pl-0 max-w-7xl mx-auto py-8 flex flex-row justify-between flex flex-col lg:flex-row">
+				<div class="flex flex-row justify-between">
 						<a class="group flex flex-row gap-4 items-center text-gray-200 text-xl font-astronomus font-bold uppercase" href="/">
-								<img class="h-10" src="{{ asset('images/svg/mscc-logo.svg') }}" />
-								<span>Developers Conference <span class="text-mustard">2023</span></span>
+								<img class="h-12 lg:h-10" src="{{ asset('images/svg/mscc-logo.svg') }}" />
+								<span class="hidden md:block">Developers Conference <span class="text-mustard">2023</span></span>
 						</a>
+						<button class="text-xs text-white font-bold uppercase" @click="open = !open">
+                            <span class="pt-0.5">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" :class="{ 'hidden' : open }" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 6h16M4 12h16M4 18h16" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" :class="{ 'hidden' : !open }" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M6 18L18 6M6 6l12 12" />
+                                </svg>
+                            </span>
+						</button>
 				</div>
-				<div class="flex flex-row gap-8 items-center text-gray-100 text-sm font-bold font-spotnik uppercase">
+				<div class="text-gray-100 text-sm font-bold font-spotnik uppercase max-h-0 overflow-hidden transition-all" style="" x-ref="menu" x-bind:style="open == true ? 'max-height: ' + $refs.menu.scrollHeight + 'px' : ''">
+					<div class="mt-4 lg:mt-0 flex flex-col lg:flex-row gap-2 lg:items-center">
 						<a class="hover:text-mustard transition hover:ease-in-out duration-300 hidden" href="#">Agenda</a>
 						<a class="hover:text-mustard transition hover:ease-in-out duration-300 hidden" href="#">Speakers</a>
 						<a class="hover:text-mustard transition hover:ease-in-out duration-300 hidden" href="#">Community</a>
 						<a class="hover:text-mustard transition hover:ease-in-out duration-300 hidden" href="#">Extras</a>
 						<a class="hover:text-mustard transition hover:ease-in-out duration-300" href="https://drive.google.com/file/d/1GQY5WElMktXO7JLxgYJq8tWDuKVFra9A/view?usp=share_link">Become a sponsor</a>
 						<a class="bg-red-600 px-2 py-2 hover:bg-red-700 transition hover:ease-in-out duration-500" href="https://sessionize.com/developers-conference-2023/">Call for Paper</a>
+					</div>
 				</div>
 		</div>
 </nav>
