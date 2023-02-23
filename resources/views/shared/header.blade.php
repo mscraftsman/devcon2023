@@ -22,7 +22,7 @@
                                                     </span>
 						</button>
 				</div>
-				<div class="text-gray-100 text-sm font-bold font-spotnik uppercase max-h-0 lg:max-h-full overflow-hidden transition-all" style="" x-cloak x-ref="menu" x-bind:style="open == true ? 'max-height: ' + $refs.menu.scrollHeight + 'px' : ''">
+				<div class="text-gray-100 text-sm font-bold font-spotnik uppercase max-h-0 lg:max-h-full overflow-hidden transition-all" style="" x-ref="menu" x-bind:style="open == true ? 'max-height: ' + $refs.menu.scrollHeight + 'px' : ''">
 					<div class="mt-6 lg:mt-0 flex flex-col lg:flex-row gap-3 lg:gap-6 lg:items-center">
 						<a class="hover:text-mustard transition hover:ease-in-out duration-300 hidden" href="#">Agenda</a>
 						<a class="hover:text-mustard transition hover:ease-in-out duration-300 hidden" href="#">Speakers</a>
