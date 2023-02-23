@@ -1,10 +1,4 @@
 <nav class="bg-[#000]" x-data="{ open: false }">
-		<style>
-                    [x-cloak] {
-                        visibility: hidden;
-                        overflow: hidden
-                    }
-                </style>
 		<div class="px-6 lg:pl-0 max-w-7xl mx-auto py-8 flex flex-row justify-between flex flex-col lg:flex-row">
 				<div class="flex flex-row justify-between">
 						<a class="group flex flex-row gap-4 items-center text-gray-200 text-xl font-astronomus font-bold uppercase" href="/">
@@ -13,10 +7,10 @@
 						</a>
 						<button class="text-xs text-white font-bold uppercase lg:hidden" @click="open = !open">
                                                     <span class="pt-0.5">
-                                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" x-cloak :class="{ 'hidden' : open }" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" :class="{ 'hidden' : open }" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 6h16M4 12h16M4 18h16" />
                                                         </svg>
-                                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" x-cloak :class="{ 'hidden' : !open }" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" :class="{ 'hidden' : !open }" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M6 18L18 6M6 6l12 12" />
                                                         </svg>
                                                     </span>
