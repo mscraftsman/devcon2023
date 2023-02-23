@@ -1,22 +1,28 @@
 <nav class="bg-[#000]" x-data="{ open: false }">
+		<style>
+                    [x-cloak] {
+                        visibility: hidden;
+                        overflow: hidden
+                    }
+                </style>
 		<div class="px-6 lg:pl-0 max-w-7xl mx-auto py-8 flex flex-row justify-between flex flex-col lg:flex-row">
 				<div class="flex flex-row justify-between">
 						<a class="group flex flex-row gap-4 items-center text-gray-200 text-xl font-astronomus font-bold uppercase" href="/">
 								<img class="h-12 lg:h-10" src="{{ asset('images/svg/mscc-logo.svg') }}" />
-								<span class="hidden md:block">Developers Conference <span class="text-mustard">2023</span></span>
+								<div class="invisible lg:visible">Developers Conference <span class="text-mustard">2023</span></div>
 						</a>
-						<button class="text-xs text-white font-bold uppercase" @click="open = !open">
-                            <span class="pt-0.5">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" :class="{ 'hidden' : open }" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 6h16M4 12h16M4 18h16" />
-                                </svg>
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" :class="{ 'hidden' : !open }" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M6 18L18 6M6 6l12 12" />
-                                </svg>
-                            </span>
+						<button class="text-xs text-white font-bold uppercase lg:hidden" @click="open = !open">
+                                                    <span class="pt-0.5">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" x-cloak :class="{ 'hidden' : open }" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 6h16M4 12h16M4 18h16" />
+                                                        </svg>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" x-cloak :class="{ 'hidden' : !open }" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M6 18L18 6M6 6l12 12" />
+                                                        </svg>
+                                                    </span>
 						</button>
 				</div>
-				<div class="text-gray-100 text-sm font-bold font-spotnik uppercase max-h-0 overflow-hidden transition-all" style="" x-ref="menu" x-bind:style="open == true ? 'max-height: ' + $refs.menu.scrollHeight + 'px' : ''">
+				<div class="text-gray-100 text-sm font-bold font-spotnik uppercase max-h-0 lg:max-h-full overflow-hidden transition-all" style="" x-cloak x-ref="menu" x-bind:style="open == true ? 'max-height: ' + $refs.menu.scrollHeight + 'px' : ''">
 					<div class="mt-4 lg:mt-0 flex flex-col lg:flex-row gap-2 lg:items-center">
 						<a class="hover:text-mustard transition hover:ease-in-out duration-300 hidden" href="#">Agenda</a>
 						<a class="hover:text-mustard transition hover:ease-in-out duration-300 hidden" href="#">Speakers</a>
