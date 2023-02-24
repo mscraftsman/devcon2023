@@ -22,7 +22,7 @@
 						<a class="hover:text-mustard transition hover:ease-in-out duration-300 hidden" href="#">Speakers</a>
 						<a class="hover:text-mustard transition hover:ease-in-out duration-300 hidden" href="#">Community</a>
 						<a class="hover:text-mustard transition hover:ease-in-out duration-300 hidden" href="#">Extras</a>
-						<a class="hover:text-mustard transition hover:ease-in-out duration-300" href="https://drive.google.com/file/d/1GQY5WElMktXO7JLxgYJq8tWDuKVFra9A/view?usp=share_link">Become a sponsor</a>
+						<a class="hover:text-mustard transition hover:ease-in-out duration-300" target="_blank" href="https://drive.google.com/file/d/10wkqMQZ32TacDiVoGPDR7Y0rPZlNXbHS/view">Become a sponsor</a>
 						<a class="bg-red-600 px-2 py-2 hover:bg-red-700 transition hover:ease-in-out duration-500" href="https://sessionize.com/developers-conference-2023/">Call for Paper</a>
 					</div>
 				</div>
