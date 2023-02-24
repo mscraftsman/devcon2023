@@ -153,7 +153,7 @@
         <link rel="stylesheet" href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap">
 
         <!-- Scripts -->
-        @vite(['resources/scss/app.scss', 'resources/js/app.js'])
+        @vite(['resources/css/app.css', 'resources/js/app.js'])
 
         <style>
             .custom-shape-divider-bottom-1674392093 {
@@ -185,7 +185,7 @@
 
         @yield('content')
 
-        @include('shared.footer')
+	<!-- @include('shared.footer') -->
     </body>
 
 </html>

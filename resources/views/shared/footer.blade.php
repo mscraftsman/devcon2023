@@ -1,9 +1,9 @@
 <footer class="space--footer">
 	<div class="footer--bg-1" style="background-image: url({{ asset('images/svg/footer-bg-2.svg') }});"></div>
-	<div class="footer--stars">
-		<div class="stars"></div>
-  	<div class="stars2"></div>
-  	<div class="stars3"></div>
+	<div class="hidden footer--stars">
+		<div class="hidden stars"></div>
+  	<div class="hidden stars2"></div>
+  	<div class="hidden stars3"></div>
 	</div>
 	<div class="footer--bg-2" style="background-image: url({{ asset('images/svg/footer-spaceman-2.svg') }});"></div>
 	<div class="footer--content">
