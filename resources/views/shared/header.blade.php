@@ -39,12 +39,52 @@
 		</div>
 
 		<div class="grid place-items-center">
-			<!-- <img class="pt-16 object-center w-[400px]" src="/images/png/planets.png" /> -->
-
 			<div class="hero--animation-container">
-					<img class="planets-3" src="{{ asset('images/svg/hero/planets-3.svg') }}" alt="">
-					<img class="planets-2" src="{{ asset('images/svg/hero/planets-2.svg') }}" alt="">
-					<img class="planets-1" src="{{ asset('images/svg/hero/planets-1.svg') }}" alt="">
+
+				<div class="hero--text">
+					<img class="text" src="{{ asset('images/svg/hero/hero-text.svg') }}" alt="">
+				</div>
+				<div class="ring--1">
+					<div class="planets--holder">
+						<img class="planets" src="{{ asset('images/svg/hero/planets-3_5.svg') }}" alt="">
+					</div>
+					<div class="jupiter--wrapper">
+						<img class="jupiter" src="{{ asset('images/svg/hero/jupiter.svg') }}" alt="">
+					</div>
+					<div class="saturn--wrapper">
+						<img class="saturn" src="{{ asset('images/svg/hero/saturn.svg') }}" alt="">
+					</div>
+				</div>
+				<div class="ring--2">
+					<div class="planets--holder">
+						<img class="planets" src="{{ asset('images/svg/hero/planets-2_2.svg') }}" alt="">
+					</div>
+					<div class="mars--wrapper">
+						<img class="mars" src="{{ asset('images/svg/hero/mars.svg') }}" alt="">
+					</div>
+					<div class="earth--wrapper">
+						<img class="earth" src="{{ asset('images/svg/hero/earth.svg') }}" alt="">
+					</div>
+				</div>
+				<div class="ring--3">
+					<div class="planets--holder">
+						<img class="planets" src="{{ asset('images/svg/hero/planets-1_2.svg') }}" alt="">
+					</div>
+					<div class="mercury--wrapper">
+						<img class="mercury" src="{{ asset('images/svg/hero/mercury.svg') }}" alt="">
+					</div>
+					<div class="venus--wrapper">
+						<img class="venus" src="{{ asset('images/svg/hero/venus.svg') }}" alt="">
+					</div>
+				</div>
+				<div class="ring--4">
+					<div class="sparkle-ring">
+						<img class="sparkle" src="{{ asset('images/svg/hero/sparkle-ring.svg') }}" alt="">
+					</div>
+				</div>
+				<div class="purple-bg">
+					<img class="bg" src="{{ asset('images/svg/hero/purple-bg.svg') }}" alt="">
+				</div>
 			</div>
 
 			<div class="mt-8 text-gray-200 font-bold font-spotnik uppercase">
