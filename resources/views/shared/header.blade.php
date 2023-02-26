@@ -6,14 +6,14 @@
 								<div class="invisible lg:visible">Developers Conference <span class="text-mustard">2023</span></div>
 						</a>
 						<button class="text-xs text-white font-bold uppercase lg:hidden" @click="open = !open">
-                                                    <span class="pt-0.5">
-                                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" :class="{ 'hidden' : open }" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 6h16M4 12h16M4 18h16" />
-                                                        </svg>
-                                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" :class="{ 'hidden' : !open }" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M6 18L18 6M6 6l12 12" />
-                                                        </svg>
-                                                    </span>
+							<span class="pt-0.5">
+									<svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" :class="{ 'hidden' : open }" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+											<path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 6h16M4 12h16M4 18h16" />
+									</svg>
+									<svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" :class="{ 'hidden' : !open }" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+											<path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M6 18L18 6M6 6l12 12" />
+									</svg>
+							</span>
 						</button>
 				</div>
 				<div class="text-gray-100 text-sm font-bold font-spotnik uppercase max-h-0 lg:max-h-full overflow-hidden transition-all" style="" x-ref="menu" x-bind:style="open == true ? 'max-height: ' + $refs.menu.scrollHeight + 'px' : ''">
@@ -30,25 +30,30 @@
 </nav>
 
 <!-- Hero section-->
-<section class="relative bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-[#2F2052] to-[#191029]">
+<section class="relative hero--intro">
 
-		<!-- <div class="absolute bg-repeat bg-repeat-y" style="background-image: url('/images/SVG/space-dots.svg')"></div> -->
-		<img class="mt-72 absolute" src="/images/svg/space-dots.svg" />
-		<img class="absolute" src="/images/svg/space-dots.svg" />
+		<div class="hero--stars">
+			<div class="stars"></div>
+			<div class="stars2"></div>
+			<div class="stars3"></div>
+		</div>
 
 		<div class="grid place-items-center">
-				<img class="pt-16 object-center w-[400px]" src="/images/png/planets.png" />
+			<!-- <img class="pt-16 object-center w-[400px]" src="/images/png/planets.png" /> -->
 
-		<div class="mt-8 text-gray-200 font-bold font-spotnik uppercase">
-				Innovation •
-				Technology •
-				Community
-		</div>
+			<div class="hero--animation-container">
+					<img class="planets-3" src="{{ asset('images/svg/hero/planets-3.svg') }}" alt="">
+					<img class="planets-2" src="{{ asset('images/svg/hero/planets-2.svg') }}" alt="">
+					<img class="planets-1" src="{{ asset('images/svg/hero/planets-1.svg') }}" alt="">
+			</div>
+
+			<div class="mt-8 text-gray-200 font-bold font-spotnik uppercase">
+				Innovation • Technology • Community
+			</div>
 		</div>
 
 		<h2 class="mt-2 mb-6 text-center text-2xl text-mustard font-bold font-astronomus uppercase">The Developers Conference 2023</h2>
-
-		<div class="pb-16 max-w-4xl mx-auto text-sm text-gray-100 font-bold font-spotnik uppercase flex flex-col gap-4 intro-text">
+		<!-- <div class="pb-16 max-w-4xl mx-auto text-sm text-gray-100 font-bold font-golos uppercase flex flex-col gap-4 intro-text">
 				<p>
 						Being the largest IT Community in Mauritius, we are so passionate about the tech world that doing
 						the Developers Conference is a must. With the Virtual Conference, we missed the human touch where
@@ -60,7 +65,7 @@
 						sessions over 3 whole days of technical geekery as well as various evening entertainments. Come
 						and meet our Partners for recruitment and internship opportunities at their different booths.
 						We have some surprises also in store for you! So, come, and let's have some fun!
-				</p>
+				</p> -->
 		</div>
 
 		<div class="custom-shape-divider-bottom-1674392093">

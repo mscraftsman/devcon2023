@@ -1,0 +1,60 @@
+.hero--intro {
+  min-height: 80vh;
+	background: radial-gradient(circle, rgba(47, 32, 82, 1) 35%, rgba(25, 16, 41, 1) 100%);
+
+	.hero--stars {
+		.stars {
+			@include star-template($numStarOneStars, 1px, $starOneScrollDuration);
+		}
+	
+		.stars2 {
+			@include star-template($numStarTwoStars, 2px, $starTwoScrollDuration);
+		}
+	
+		// .stars3 {
+		// 	@include star-template($numStarThreeStars, 5px, $starThreeScrollDuration);
+		// 	opacity: 0.4;
+		// }
+	}
+
+		@keyframes rotate--planets {
+			from {
+				transform: rotate(0deg);
+			}
+	
+			to {
+				transform: rotate(359deg);
+			}
+		}
+
+
+	.hero--animation-container {
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-template-rows: 1fr;
+		align-items: center;
+		justify-items: center;
+		margin-top: 30px;;
+
+		.planets-1, .planets-2, .planets-3 {
+			
+			grid-row: 1 / 2;
+			grid-column: 1 / 2;
+		}
+
+		.planets-3 {
+			height: 500px;
+			animation: rotate--planets 15s infinite linear;
+		}
+
+		.planets-2 {
+			height: 400px;
+			animation: rotate--planets 10s infinite linear;
+		}
+
+		.planets-1 {
+			height: 300px;
+			animation: rotate--planets 8s infinite linear;
+		}
+	}
+}

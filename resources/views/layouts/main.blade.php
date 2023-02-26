@@ -151,9 +151,12 @@
 
         <!-- Fonts -->
         <link rel="stylesheet" href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;600;700" rel="stylesheet">
 
         <!-- Scripts -->
-        @vite(['resources/css/app.css', 'resources/js/app.js'])
+        @vite(['resources/css/app.css', 'resources/scss/app.scss', 'resources/js/app.js'])
 
         <style>
             .custom-shape-divider-bottom-1674392093 {
@@ -185,7 +188,7 @@
 
         @yield('content')
 
-	<!-- @include('shared.footer') -->
+		@include('shared.footer')
     </body>
 
 </html>
