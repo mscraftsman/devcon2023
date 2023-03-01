@@ -313,7 +313,15 @@
 @media (max-width: 768px) {
 	.hero--intro {
 		.hero--animation-container {
-			// transform: scale(0.9);
+			transform: scale(0.9);
+		}
+	}
+}
+
+@media (max-width: 540px) {
+	.hero--intro {
+		.hero--animation-container {
+			transform: scale(0.6);
 		}
 	}
 }

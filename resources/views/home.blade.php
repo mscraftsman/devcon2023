@@ -3,8 +3,8 @@
 @include('home.hero')
 @include('home.intro')
 
-<!-- @section('content') -->
+@section('content')
 
-@include('pages.sponsors')
+<!-- @include('pages.sponsors') -->
 
 @endsection
