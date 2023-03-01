@@ -46,7 +46,7 @@
 				</div>
 				<div class="ring--1">
 					<div class="planets--holder">
-						<img class="planets" src="{{ asset('images/svg/hero/planets-3_5.svg') }}" alt="">
+						<img class="planets" src="{{ asset('images/svg/hero/planets-3_7.svg') }}" alt="">
 					</div>
 					<div class="jupiter--wrapper">
 						<img class="jupiter" src="{{ asset('images/svg/hero/jupiter.svg') }}" alt="">
@@ -57,7 +57,7 @@
 				</div>
 				<div class="ring--2">
 					<div class="planets--holder">
-						<img class="planets" src="{{ asset('images/svg/hero/planets-2_2.svg') }}" alt="">
+						<img class="planets" src="{{ asset('images/svg/hero/planets-2_3.svg') }}" alt="">
 					</div>
 					<div class="mars--wrapper">
 						<img class="mars" src="{{ asset('images/svg/hero/mars.svg') }}" alt="">
