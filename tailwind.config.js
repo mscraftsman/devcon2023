@@ -9,6 +9,8 @@ module.exports = {
       fontFamily: {
         astronomus: ['Astronomus', 'sans-serif'],
         spotnik: ['Spotnik', 'sans-serif'],
+        ibm: ['IBM Plex Sans', 'sans-serif'],
+        golos: ['Golos Text', 'sans-serif'],
       },
       colors: {
           mustard: '#fdce00',

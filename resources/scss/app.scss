@@ -1,5 +1,6 @@
 @import "common/normalize.css";
 @import "common/functions.scss";
+@import "common/header.scss";
 @import "common/footer.scss";
 @import "common/intro.scss";
 @import "./intro.scss";
@@ -9,6 +10,7 @@
 	--font-astronomous: "Astronomus", sans-serif;
 	--font-spotnik: "Spotnik", sans-serif
 	--font-golos: "Golos Text", sans-serif
+	--font-ibm: 'IBM Plex Sans', sans-serif;
 }
 
 .hidden {

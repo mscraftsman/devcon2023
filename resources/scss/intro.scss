@@ -35,13 +35,25 @@
 		}
 	}
 
+	@keyframes beat {
+		0% {
+			transform: scale(1);
+		}
+		50% {
+			transform: scale(1.14);
+		}
+		100% {
+			transform: scale(1);
+		}
+	}
+
 	.hero--animation-container {
 		display: grid;
 		grid-template-columns: 1fr;
 		grid-template-rows: 1fr;
 		align-items: center;
 		justify-items: center;
-		margin-top: 30px;
+		margin-top: 70px;
 
 		.planets-1, .planets-2, .planets-3 {
 			grid-row: 1 / 2;
@@ -60,7 +72,8 @@
 			justify-content: center;
 
 			.text {
-				width: 80%;
+				width: 75%;
+				animation: beat 10s infinite linear;
 			}
 		}
 
@@ -113,7 +126,7 @@
 				align-items: center;
 				justify-content: center;
 				// margin-left: 32px;
-				transform: translateY(-16px) translateX(-15px) scale(0.7);
+				transform: translateY(-12px) translateX(-15px) scale(0.7);
 
 				.saturn {
 					// transform: scale(1.3) translateY(10px);
@@ -196,7 +209,9 @@
 				grid-column: 1 / 16;
 				grid-row: 1 / 16;
 
-				.planets {}
+				.planets {
+					transform: scale(1.11);
+				}
 			}
 
 			.mercury--wrapper {
@@ -267,7 +282,7 @@
 			align-items: center;
 			justify-content: center;
 			z-index: 3;
-			opacity: 0.8;
+			opacity: 0.9;
 			// transform: scale(0.95) translateX(-3px);
 
 			.bg {
@@ -291,5 +306,14 @@
 		}
 
 
+	}
+}
+
+
+@media (max-width: 768px) {
+	.hero--intro {
+		.hero--animation-container {
+			// transform: scale(0.9);
+		}
 	}
 }

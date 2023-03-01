@@ -1,6 +1,9 @@
 @extends('layouts.main')
 
-@section('content')
+@include('home.hero')
+@include('home.intro')
+
+<!-- @section('content') -->
 
 @include('pages.sponsors')
 

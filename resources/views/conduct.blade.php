@@ -5,7 +5,7 @@
 <section class="mt-16 max-w-4xl mx-auto">
     <h1 class="text-center text-gray-700 text-4xl font-astronomus uppercase">Code of Conduct</h1>
 
-    <div class="mt-4 text-gray-600 font-spotnik">
+    <div class="mt-4 text-gray-600 font-ibm">
         <p class="text-sm">All attendees, speakers, sponsors and volunteers at our conference are required to agree with the following code of conduct. Organisers will enforce this code throughout the event. We expect cooperation from all participants to help ensure a safe environment for everybody.</p>
 
         <h2 class="mt-6 text-center text-gray-700 text-2xl font-astronomus uppercase hidden">Be Excellent to each other</h2>

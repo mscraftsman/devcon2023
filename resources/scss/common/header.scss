@@ -1,0 +1,16 @@
+.logo--text {
+  line-height: 20px;
+	font-size: 19px;
+}
+
+.main--navigation {
+	height: 70px;
+	background: rgba(0, 0, 0, 0.75);
+	opacity: 1;
+	box-shadow: 0 0 13px rgb(0 0 0 / 90%);
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 8;
+	padding-top: 6px;
+}
