@@ -29,9 +29,7 @@
         <p class="mt-4 text-sm">If you are being harassed, notice that someone else is being harassed, or have any other concerns, please contact a member of conference staff immediately. Conference staff can be identified as they'll be wearing branded t-shirts.</p>
         <p class="mt-4 text-sm">Conference staff will be happy to help participants contact hotel/venue security or local law enforcement, provide escorts, or otherwise assist those experiencing harassment to feel safe for the duration of the conference. We value your attendance.</p>
         <p class="mt-4 text-sm">We expect participants to follow these rules at conference and workshop venues and conference-related social events.</p>
-        <p class="mt-4 mb-8 text-sm">Original source and credit: <a class="hover:underline hover:decoration-red-500 hover:underline-offset-4" href="http://2012.jsconf.us/#/about">http://2012.jsconf.us/#/about</a> & <a class="hover:underline hover:decoration-red-500 hover:underline-offset-4" href="http://geekfeminism.wikia.com/wiki/Conference_anti-harassment/Policy">The Ada Initiative</a>
-
-</p>
+        <p class="mt-4 mb-8 text-sm">Original source and credit: <a class="hover:underline hover:decoration-red-500 hover:underline-offset-4" href="http://2012.jsconf.us/#/about">http://2012.jsconf.us/#/about</a> & <a class="hover:underline hover:decoration-red-500 hover:underline-offset-4" href="http://geekfeminism.wikia.com/wiki/Conference_anti-harassment/Policy">The Ada Initiative</a></p>
     </div>
 </section>
 

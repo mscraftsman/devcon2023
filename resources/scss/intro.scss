@@ -1,6 +1,7 @@
 .hero--intro {
-  min-height: 80vh;
+  // min-height: 600px;
 	background: radial-gradient(circle, rgba(47, 32, 82, 1) 35%, rgba(25, 16, 41, 1) 100%);
+	overflow: hidden;
 
 	.hero--stars {
 		.stars {

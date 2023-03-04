@@ -1,4 +1,4 @@
-<div class="pb-16 max-w-4xl mx-auto py-10 text-sm text-black font-bold font-ibm uppercase flex flex-col gap-4 intro-text">
+<div class="pb-16 max-w-4xl mx-auto py-10 max-[768px]:px-3 mt-5 text-sm text-black font-bold font-ibm uppercase flex flex-col gap-4 intro-text">
 		<p>
 				Being the largest IT Community in Mauritius, we are so passionate about the tech world that doing
 				the Developers Conference is a must. With the Virtual Conference, we missed the human touch where

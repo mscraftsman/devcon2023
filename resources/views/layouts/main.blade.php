@@ -160,7 +160,7 @@
 
 			<style>
 					.custom-shape-divider-bottom-1674392093 {
-							position: absolute;
+							/* position: absolute; */
 							bottom: 0;
 							left: 0;
 							width: 100%;
