@@ -5,6 +5,6 @@
 
 @section('content')
 
-<!-- @include('pages.sponsors') -->
+@include('pages.sponsors')
 
 @endsection
