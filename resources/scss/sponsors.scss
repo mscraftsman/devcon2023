@@ -1,0 +1,36 @@
+.sponsors-logo-wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	.sponsor {
+		img {
+			height: 100px;
+			width: auto !important;
+			transition: 0.2s all ease-in-out;
+
+			&:hover {
+				transform: scale(1.02);
+			}
+		}
+
+		&.medium {
+			img {
+				height: 80px;
+			}
+		}
+	}
+
+	&.venus--sponsors {
+		.sponsor {
+			img {
+				height: 110px;
+			}
+			&.medium {
+				img {
+					height: 90px;
+				}
+			}
+		}
+	}
+}

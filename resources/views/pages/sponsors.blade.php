@@ -1,5 +1,4 @@
-<section class="mt-2 mb-16 flex flex-row max-w-8xl mx-[150px]">
-	<div class="container--fw">
+<section class="mt-2 mb-16 container--fw">
 	<!-- 
     <div class="grid place-items-start">
         <img class="-mt-20 ml-0 w-[260px]" src="/images/png/ufo.png" />
@@ -26,9 +25,18 @@
             <img class="w-12" src="/images/png/venus.png" />
         </div>
 
-        <div class="py-8 flex flex-row justify-center">
-            <img class="h-24" src="{{ asset('images/sponsors/sdworx.svg') }}" />
-        </div>
+				<div class="sponsors-logo-wrapper venus--sponsors">
+					<div class="sponsor py-8 px-8">
+						<a href="https://www.sdworx.co.uk/en-gb/mauritius" target="_blank">
+							<img src="{{ asset('images/sponsors/sdworx.svg') }}" />
+						</a>
+					</div>
+					<div class="sponsor medium py-8 px-8">
+						<a href="https://www.providus.mu/" target="_blank">
+							<img src="{{ asset('images/sponsors/providus.png') }}" />
+						</a>
+					</div>
+				</div>
 
         <!-- Platinum Tier -->
 
@@ -54,6 +62,14 @@
             <img class="w-12" src="/images/png/jupiter.png" />
         </div>
 
+				<div class="sponsors-logo-wrapper jupiter--sponsors">
+					<div class="sponsor py-8 px-8">
+						<a href="https://www.novity.io/" target="_blank">
+							<img src="{{ asset('images/sponsors/novity.svg') }}" />
+						</a>
+					</div>
+				</div>
+
         <!-- Bronze Tier -->
 
         <div class="mt-16 flex items-center justify-center">
@@ -61,10 +77,18 @@
             <p class="text-xl text-center text-gray-600 font-bold font-astronomus uppercase mx-10">Saturn (Bronze Tier)</p>
             <img class="w-12" src="/images/png/saturn.png" />
         </div>
+
+				<div class="sponsors-logo-wrapper jupiter--sponsors">
+					<div class="sponsor py-8 px-8">
+						<a href="https://www.maccs.mu/" target="_blank">
+							<img src="{{ asset('images/sponsors/maccs.svg') }}" />
+						</a>
+					</div>
+				</div>
+
     <!-- <div class="">
         <img class="ml-32 w-[200px]" src="/images/svg/big-bang.svg" />
         <img class="pt-28 ml-4 w-[160px]" src="/images/svg/flag.svg" />
         <img class="pt-10 ml-32 w-[200px]" src="/images/svg/satellite.svg" />
     </div> -->
-		</div>
 </section>
