@@ -2,7 +2,7 @@
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 	<head>
 			<meta charset="utf-8">
-			<meta name="viewport" content="width=device-width,initial-scale=1"
+			<meta name="viewport" content="width=device-width,initial-scale=1">
 			<meta name="csrf-token" content="{{ csrf_token() }}">
 			<title>{{ config('app.name', 'Developers Conference 2023') }}</title>
 
@@ -56,31 +56,31 @@
 			<link
 				rel="icon"
 				type="image/png"
-				href="{{ asset('images/favicon-196x196.png') }}"
+				href="{{ asset('images/favicon/favicon-196x196.png') }}"
 				sizes="196x196"
 			/>
 			<link
 				rel="icon"
 				type="image/png"
-				href="{{ asset('images/favicon-96x96.png') }}"
+				href="{{ asset('images/favicon/favicon-96x96.png') }}"
 				sizes="96x96"
 			/>
 			<link
 				rel="icon"
 				type="image/png"
-				href="{{ asset('images/favicon-32x32.png') }}"
+				href="{{ asset('images/favicon/favicon-32x32.png') }}"
 				sizes="32x32"
 			/>
 			<link
 				rel="icon"
 				type="image/png"
-				href="{{ asset('images/favicon-16x16.png') }}"
+				href="{{ asset('images/favicon/favicon-16x16.png') }}"
 				sizes="16x16"
 			/>
 			<link
 				rel="icon"
 				type="image/png"
-				href="{{ asset('images/favicon-128.png') }}"
+				href="{{ asset('images/favicon/favicon-128.png') }}"
 				sizes="128x128"
 			/>
 			<meta name="application-name" content="Developers Conference 2023" />

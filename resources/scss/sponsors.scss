@@ -1,3 +1,19 @@
+.title--container {
+	display: grid;
+	max-width: 400px;
+	grid-template-columns: 50px 1fr 50px;
+	grid-template-rows: 1fr;
+	align-items: center;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+
+.sponsors--container {
+	background-size: 200px, 200px, 200px, 150px;
+	background-repeat: no-repeat;
+	background-position: 0% 20%, 15% 40%, 0% 60%, 15% 90%;
+}
+
 .sponsors-logo-wrapper {
 	display: flex;
 	align-items: center;
@@ -24,11 +40,59 @@
 	&.venus--sponsors {
 		.sponsor {
 			img {
-				height: 110px;
+				height: 90px;
 			}
 			&.medium {
 				img {
-					height: 90px;
+					height: 70px;
+				}
+			}
+		}
+	}
+
+	&.earth--sponsors {
+		.sponsor {
+			img {
+				height: 90px;
+			}
+
+			&.large--high {
+				img {
+					height: 120px;
+				}
+			}
+
+			&.small {
+				img {
+					height: 35px;
+				}
+			}
+		}
+	}
+
+	&.jupiter--sponsors {
+		.sponsor {
+			img {
+				height: 90px;
+			}
+
+			&.small {
+				img {
+					height: 70px;
+				}
+			}
+		}
+	}
+
+	&.saturn--sponsors {
+		.sponsor {
+			img {
+				height: 90px;
+			}
+
+			&.small {
+				img {
+					height: 60px;
 				}
 			}
 		}
