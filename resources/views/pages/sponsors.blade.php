@@ -54,7 +54,16 @@
             <img class="w-12" src="/images/png/earth.png" />
         </div>
 
-				<div class="sponsors-logo-wrapper earth--sponsors mb-10">
+
+        <!-- Gold Tier -->
+
+        <div class="mt-16 title--container">
+            <img class="w-12" src="/images/png/mars.png" />
+            <p class="text-xl text-center text-gray-600 font-bold font-astronomus uppercase">Mars (Gold Tier)</p>
+            <img class="w-12" src="/images/png/mars.png" />
+        </div>
+
+				<div class="sponsors-logo-wrapper mars--sponsors mb-10">
 					<div class="sponsor large--high py-8 px-8">
 						<a href="https://www.klanik.com/" target="_blank">
 							<img src="{{ asset('images/sponsors/klanik.png') }}" />
@@ -66,14 +75,6 @@
 						</a>
 					</div>
 				</div>
-
-        <!-- Gold Tier -->
-
-        <div class="mt-16 title--container">
-            <img class="w-12" src="/images/png/mars.png" />
-            <p class="text-xl text-center text-gray-600 font-bold font-astronomus uppercase">Mars (Gold Tier)</p>
-            <img class="w-12" src="/images/png/mars.png" />
-        </div>
 
         <!-- Silver Tier -->
 
