@@ -1,5 +1,5 @@
 <!-- Hero section-->
-<section class="relative hero--intro">
+<section class="relative hero--intro pt-24">
 
 		<div class="hero--stars">
 			<div class="stars"></div>
@@ -7,9 +7,8 @@
 			<!-- <div class="stars3"></div> -->
 		</div>
 
-		<div class="grid place-items-center mt-5">
+		<div class="flex items-center justify-items-center justify-center h-26 sm:h-fit">
 			<div class="hero--animation-container">
-
 				<div class="hero--text">
 					<img class="text" src="{{ asset('images/svg/hero/hero-text.svg') }}" alt="">
 				</div>
@@ -57,8 +56,8 @@
 			</div>
 		</div>
 
-		<div class="hero--sub-text">
-			<div class="mt-2 mb-2 text-center text-2xl text-mustard font-bold font-spotnik uppercase">
+		<div class="hero--sub-text mb-10 sm:mb-0">
+			<div class="mt-2 mb-2 text-center text-1xl sm:text-2xl text-mustard font-bold font-spotnik uppercase">
 				20 - 22 July, Caudan Arts Centre.
 			</div>
 

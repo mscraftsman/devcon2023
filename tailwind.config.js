@@ -14,6 +14,9 @@ module.exports = {
       },
       colors: {
           mustard: '#fdce00',
+      },
+      spacing: {
+        '26': '26rem',
       }
     },
   },

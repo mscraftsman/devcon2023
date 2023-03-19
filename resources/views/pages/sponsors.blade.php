@@ -14,7 +14,7 @@
         <img class="pt-20 ml-40 w-[175px]" src="/images/svg/rocket.svg" />
         <img class="pt-20 ml-4 w-[175px]" src="/images/svg/asteroid.svg" />
     </div> -->
-        <h2 class="mt-5 text-center text-gray-600 font-bold font-spotnik uppercase">Backed by some big players</h2>
+        <h2 class="mt-5 text-center text-gray-600 font-bold font-spotnik uppercase">Our values allies</h2>
         <h1 class="mt-2 pb-5 mb-10 text-mustard text-center text-4xl font-astronomus uppercase">Sponsors & Partners</h1>
 
         <!-- Diamond Tier -->

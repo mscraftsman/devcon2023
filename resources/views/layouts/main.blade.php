@@ -173,7 +173,7 @@
 							position: relative;
 							display: block;
 							width: calc(100% + 1.3px);
-							height: 150px;
+							/* height: 150px; */
 					}
 
 					.custom-shape-divider-bottom-1674392093 .shape-fill {
