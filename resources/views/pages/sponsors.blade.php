@@ -1,12 +1,15 @@
-<!-- <section 
+<section 
 		class="mt-2 mb-16 container--fw sponsors--container" 
 		style="background-image: url({{ asset('images/png/ufo.png') }}), 
 													 		url({{ asset('images/svg/astronaut.svg') }}), 
 															url({{ asset('images/svg/rocket.svg') }}), 
-													 		url({{ asset('images/svg/asteroid.svg') }})"> -->
-
+													 		url({{ asset('images/svg/asteroid.svg') }}),
+													 		url({{ asset('images/svg/big-bang.svg') }}),
+													 		url({{ asset('images/svg/flag.svg') }}),
+													 		url({{ asset('images/svg/satellite.svg') }})">
+<!-- 
 <section 
-		class="mt-2 mb-16 container--fw sponsors--container">
+		class="mt-2 mb-16 container--fw sponsors--container"> -->
 	<!-- 
     <div class="grid place-items-start">
         <img class="-mt-20 ml-0 w-[260px]" src="/images/png/ufo.png" />

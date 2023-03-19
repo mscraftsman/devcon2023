@@ -1,5 +1,5 @@
 <div 
-	class="max-w-4xl mx-auto py-20 max-[768px]:px-3 mt-5 text-sm text-black font-bold font-ibm uppercase flex flex-col gap-4 intro-text"
+	class="max-w-4xl mx-auto py-20 max-[768px]:px-3 mt-5 text-sm text-black font-bold font-dm uppercase flex flex-col gap-4 intro-text"
 	style="background-image: url({{ asset('images/svg/intro-text-bg.svg') }})"
 	>
 		<p>

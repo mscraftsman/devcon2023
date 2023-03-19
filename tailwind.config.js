@@ -11,6 +11,7 @@ module.exports = {
         spotnik: ['Spotnik', 'sans-serif'],
         ibm: ['IBM Plex Sans', 'sans-serif'],
         golos: ['Golos Text', 'sans-serif'],
+        dm: ['DM Sans', 'sans-serif'],
       },
       colors: {
           mustard: '#fdce00',
