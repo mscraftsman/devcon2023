@@ -117,7 +117,7 @@
 					the Developers Conference is a must. With the Virtual Conference, we missed the human touch where
 					people exchange and interact with each other."
 			/>
-			<meta property="og:image" content="{{ asset('images/og-image.jpeg }}" />
+			<meta property="og:image" content="{{ asset('images/og-image.jpeg') }}" />
 			<meta property="og:image:type" content="image/jpeg" />
 			<meta property="og:image:width" content="1400" />
 			<meta property="og:image:height" content="798" />
