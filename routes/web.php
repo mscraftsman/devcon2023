@@ -14,9 +14,11 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home');
+    $title = 'MSCC — Developers Conference 2023';
+    return view('home', compact('title'));
 })->name('home');
 
 Route::get('/code-of-conduct', function () {
-    return view('conduct');
+    $title = 'MSCC — Code of Conduct';
+    return view('conduct', compact('title'));
 })->name('code-of-conduct');
