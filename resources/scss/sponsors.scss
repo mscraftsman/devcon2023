@@ -1,11 +1,21 @@
 .title--container {
 	display: grid;
-	max-width: 400px;
+	max-width: 300px;
 	grid-template-columns: 50px 1fr 50px;
 	grid-template-rows: 1fr;
 	align-items: center;
 	margin: 0 auto;
 	margin-bottom: 20px;
+
+	.package--line {
+		line-height: 18px;
+	}
+
+	.package {
+		display: block;
+		font-size: 12px;
+		opacity: 0.5;
+	}
 }
 
 .sponsors--container {
@@ -21,7 +31,8 @@
 
 	.sponsor {
 		img {
-			width: 240px;
+			max-width: 240px;
+			width: 100%;
 			// height: auto !important;
 			transition: 0.2s all ease-in-out;
 
@@ -33,7 +44,7 @@
 		&.medium {
 			img {
 				// height: 80px;
-				width: 310px;
+				max-width: 310px;
 			}
 		}
 	}
@@ -51,23 +62,32 @@
 		}
 	}
 
+	&.earth--sponsors {
+		.sponsor {
+			img {
+				// height: 90px;
+				max-width: 180px;
+			}
+		}
+	}
+
 	&.mars--sponsors {
 		.sponsor {
 			img {
 				// height: 90px;
-				width: 200px;
+				max-width: 200px;
 			}
 
 			&.large--high {
 				img {
 					height: 150px;
-					width: auto;
+					max-width: auto;
 				}
 			}
 
 			&.small {
 				img {
-					width: 180px;
+					max-width: 180px;
 				}
 			}
 		}
@@ -77,13 +97,13 @@
 		.sponsor {
 			img {
 				// height: 90px;
-				width: 200px;
+				max-width: 200px;
 			}
 
 			&.small {
 				img {
 					// height: 70px;
-					width: 100px;
+					max-width: 100px;
 				}
 			}
 		}
@@ -92,12 +112,12 @@
 	&.saturn--sponsors {
 		.sponsor {
 			img {
-				width: 200px;
+				max-width: 200px;
 			}
 
 			&.small {
 				img {
-					width: 220px;
+					max-width: 220px;
 				}
 			}
 		}
@@ -110,23 +130,66 @@
 	}
 
 	.sponsors-logo-wrapper {
+		&.venus--sponsors {
+			.sponsor {
+				img {
+					max-width: 170px;
+				}
+	
+				&.medium {
+					img {
+						// height: 70px;
+					}
+				}
+			}
+		}
+		&.earth--sponsors {
+			.sponsor {
+				img {
+					max-width: 120px;
+				}
+			}
+		}
 		&.mars--sponsors {
 			.sponsor {
 				img {
 					// height: 90px;
-					width: 100px;
+					max-width: 100px;
 				}
 	
 				&.large--high {
 					img {
-						height: 120px;
+						height: 100px;
 						width: auto;
 					}
 				}
 	
 				&.small {
 					img {
-						width: 130px;
+						max-width: 130px;
+					}
+				}
+			}
+		}
+		&.jupiter--sponsors {
+			.sponsor {
+				&.small {
+					img {
+						max-width: 80px;
+					}
+				}
+			}
+		}
+
+		&.saturn--sponsors {
+			.sponsor {
+				img {
+					max-width: 200px;
+				}
+
+				&.small {
+					img {
+						max-width: 170px;
 					}
 				}
 			}

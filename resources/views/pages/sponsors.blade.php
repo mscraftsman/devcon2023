@@ -1,5 +1,5 @@
 <section 
-		class="mt-2 mb-16 container--fw sponsors--container" 
+		class="mt-2 px-2 mb-16 container--fw sponsors--container" 
 		style="background-image: url({{ asset('images/png/ufo.png') }}), 
 													 		url({{ asset('images/svg/astronaut.svg') }}), 
 															url({{ asset('images/svg/rocket.svg') }}), 
@@ -7,16 +7,7 @@
 													 		url({{ asset('images/svg/big-bang.svg') }}),
 													 		url({{ asset('images/svg/flag.svg') }}),
 													 		url({{ asset('images/svg/satellite.svg') }})">
-<!-- 
-<section 
-		class="mt-2 mb-16 container--fw sponsors--container"> -->
-	<!-- 
-    <div class="grid place-items-start">
-        <img class="-mt-20 ml-0 w-[260px]" src="/images/png/ufo.png" />
-        <img class="pt-10 ml-16 w-[175px]" src="/images/svg/astronaut.svg" />
-        <img class="pt-20 ml-40 w-[175px]" src="/images/svg/rocket.svg" />
-        <img class="pt-20 ml-4 w-[175px]" src="/images/svg/asteroid.svg" />
-    </div> -->
+
         <h2 class="mt-5 text-center text-gray-600 font-bold font-spotnik uppercase">Our valued allies</h2>
         <h1 class="mt-2 pb-5 mb-10 text-mustard text-center text-4xl font-astronomus uppercase">Sponsors & Partners</h1>
 
@@ -24,7 +15,7 @@
 
         <div class="mt-16 title--container">
             <img class="w-12" src="/images/png/mercury.png" />
-            <p class="text-xl text-center text-gray-600 font-bold font-astronomus uppercase">Mercury (Diamond Tier)</p>
+            <p class="text-xl text-center text-gray-600 font-bold font-astronomus uppercase package--line">Mercury <span class="package font-dm">(Diamond Tier)</span></p>
             <img class="w-12" src="/images/png/mercury.png" />
         </div>
 
@@ -32,7 +23,7 @@
 
         <div class="mt-16 title--container">
             <img class="w-12" src="/images/png/venus.png" />
-            <p class="text-xl text-center text-gray-600 font-bold font-astronomus uppercase">Venus (Titanium Tier)</p>
+            <p class="text-xl text-center text-gray-600 font-bold font-astronomus uppercase package--line">Venus <span class="package font-dm">(Titanium Tier)</span></p>
             <img class="w-12" src="/images/png/venus.png" />
         </div>
 
@@ -53,16 +44,23 @@
 
         <div class="mt-16 title--container">
             <img class="w-12" src="/images/png/earth.png" />
-            <p class="text-xl text-center text-gray-600 font-bold font-astronomus uppercase">Earth (Platinum Tier)</p>
+            <p class="text-xl text-center text-gray-600 font-bold font-astronomus uppercase package--line">Earth <span class="package font-dm">(Platinum Tier)</span></p>
             <img class="w-12" src="/images/png/earth.png" />
         </div>
 
+				<div class="sponsors-logo-wrapper earth--sponsors mb-10">
+					<div class="sponsor py-8 px-8">
+						<a href="https://www.swanforlife.com/en" target="_blank">
+							<img src="{{ asset('images/sponsors/swan.png') }}" />
+						</a>
+					</div>
+				</div>
 
         <!-- Gold Tier -->
 
         <div class="mt-16 title--container">
             <img class="w-12" src="/images/png/mars.png" />
-            <p class="text-xl text-center text-gray-600 font-bold font-astronomus uppercase">Mars (Gold Tier)</p>
+            <p class="text-xl text-center text-gray-600 font-bold font-astronomus uppercase package--line">Mars <span class="package font-dm">(Gold Tier)</span></p>
             <img class="w-12" src="/images/png/mars.png" />
         </div>
 
@@ -83,7 +81,7 @@
 
         <div class="mt-16 title--container">
             <img class="w-12" src="/images/png/jupiter.png" />
-            <p class="text-xl text-center text-gray-600 font-bold font-astronomus uppercase">Jupiter (Silver Tier)</p>
+            <p class="text-xl text-center text-gray-600 font-bold font-astronomus uppercase package--line">Jupiter <span class="package font-dm">(Silver Tier)</span></p>
             <img class="w-12" src="/images/png/jupiter.png" />
         </div>
 
@@ -104,7 +102,7 @@
 
         <div class="mt-16 title--container">
             <img class="w-12" src="/images/png/saturn.png" />
-            <p class="text-xl text-center text-gray-600 font-bold font-astronomus uppercase">Saturn (Bronze Tier)</p>
+            <p class="text-xl text-center text-gray-600 font-bold font-astronomus uppercase package--line">Saturn <span class="package font-dm">(Bronze Tier)</span></p>
             <img class="w-12" src="/images/png/saturn.png" />
         </div>
 

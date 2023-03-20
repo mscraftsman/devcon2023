@@ -167,7 +167,7 @@
 							width: 100%;
 							overflow: hidden;
 							line-height: 0;
-							transform: rotate(180deg);
+							transform: rotate(180deg) translateY(-1px);
 					}
 
 					.custom-shape-divider-bottom-1674392093 svg {
