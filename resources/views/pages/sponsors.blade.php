@@ -120,6 +120,11 @@
 							<img src="{{ asset('images/sponsors/maccs.svg') }}" />
 						</a>
 					</div>
+					<div class="sponsor py-8 px-8 large">
+						<a href="https://www.maccs.mu/" target="_blank">
+							<img src="{{ asset('images/sponsors/clarity.png') }}" />
+						</a>
+					</div>
 				</div>
 
     <!-- <div class="">
