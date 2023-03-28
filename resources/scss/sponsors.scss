@@ -7,6 +7,11 @@
 	margin: 0 auto;
 	margin-bottom: 20px;
 
+	&.no--planets {
+		display: flex;
+		justify-content: center;
+	}
+
 	.package--line {
 		line-height: 18px;
 	}
@@ -28,6 +33,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	flex-wrap: wrap;
 
 	.sponsor {
 		img {
@@ -117,7 +123,27 @@
 
 			&.small {
 				img {
+					max-width: 200px;
+				}
+			}
+
+			&.large {
+				img {
 					max-width: 220px;
+				}
+			}
+		}
+	}
+
+	&.speaker--sponsors {
+		.sponsor {
+			img {
+				max-width: 230px;
+			}
+
+			&.small {
+				img {
+					max-width: 200px;
 				}
 			}
 
@@ -177,6 +203,85 @@
 				}
 			}
 		}
+		&.jupiter--sponsors {
+			.sponsor {
+				&.small {
+					img {
+						max-width: 80px;
+					}
+				}
+			}
+		}
+
+		&.saturn--sponsors {
+			.sponsor {
+				img {
+					max-width: 200px;
+				}
+
+				&.small {
+					img {
+						max-width: 170px;
+					}
+				}
+			}
+		}
+	}
+
+}
+
+@media (max-width: 414px) {
+	.sponsors-logo-wrapper {
+
+		.sponsor {
+			display: flex;
+			justify-content: center;
+		}
+
+		&.venus--sponsors {
+			.sponsor {
+				img {
+					max-width: 170px;
+				}
+
+				&.medium {
+					img {
+						// height: 70px;
+					}
+				}
+			}
+		}
+
+		&.earth--sponsors {
+			.sponsor {
+				img {
+					max-width: 120px;
+				}
+			}
+		}
+
+		&.mars--sponsors {
+			.sponsor {
+				img {
+					// height: 90px;
+					max-width: 100px;
+				}
+
+				&.large--high {
+					img {
+						height: 100px;
+						width: auto;
+					}
+				}
+
+				&.small {
+					img {
+						max-width: 130px;
+					}
+				}
+			}
+		}
+
 		&.jupiter--sponsors {
 			.sponsor {
 				&.small {
