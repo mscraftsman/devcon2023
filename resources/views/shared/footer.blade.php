@@ -13,6 +13,9 @@
 	<!-- <div class="footer--bg-2" style="background-image: url({{ asset('images/svg/footer-spaceman-3.svg') }});"></div> -->
 	<div class="footer--bg-2">
 		<img src="{{ asset('images/svg/footer-spaceman-3.svg') }}" alt="">
+		<div class="container--fw">
+			<img class="spaceman" src="{{ asset('images/svg/spaceman.svg') }}" alt="">
+		</div>
 	</div>
 
 	<div class="footer--bg-bottom"></div>
@@ -22,9 +25,9 @@
 			<img src="{{ asset('images/svg/mscc-logo-dark.svg') }}" alt="" class="footer-logo">
 			<div class="mscc--text">Mauritius Software Craftsmanship Community</div>
 			<div class="social--icons">
-				<a href="/" class="icon"><img src="{{ asset('images/svg/meta.svg') }}" alt=""></a>
-				<a href="/" class="icon"><img src="{{ asset('images/svg/twitter.svg') }}" alt=""></a>
-				<a href="/" class="icon"><img src="{{ asset('images/svg/linkedin.svg') }}" alt=""></a>
+				<a href="https://www.facebook.com/MauritiusSoftwareCraftsmanshipCommunity/" class="icon"><img src="{{ asset('images/svg/meta.svg') }}" alt=""></a>
+				<a href="https://twitter.com/mscraftsman" class="icon"><img src="{{ asset('images/svg/twitter.svg') }}" alt=""></a>
+				<a href="https://www.linkedin.com/groups/5033639" class="icon"><img src="{{ asset('images/svg/linkedin.svg') }}" alt=""></a>
 			</div>
 			<div class="list--menu">
 				<ul>
