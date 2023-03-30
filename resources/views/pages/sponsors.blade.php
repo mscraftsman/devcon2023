@@ -35,7 +35,7 @@
 			<img class="w-12" src="/images/png/venus.png" />
 	</div>
 
-	<div class="sponsors-logo-wrapper venus--sponsors mb-10">
+	<div class="sponsors-logo-wrapper venus--sponsors mb-10 bottom--aligned">
 		<div class="sponsor py-5 px-5 md:py-8 md:px-8">
 			<a href="https://www.sdworx.co.uk/en-gb/mauritius" target="_blank">
 				<img src="{{ asset('images/sponsors/sdworx.svg') }}" />

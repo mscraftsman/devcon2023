@@ -35,6 +35,10 @@
 	justify-content: center;
 	flex-wrap: wrap;
 
+	&.bottom--aligned {
+		align-items: flex-end;
+	}
+
 	.sponsor {
 		img {
 			max-width: 240px;
