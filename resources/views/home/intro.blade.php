@@ -8,7 +8,7 @@
 				people exchange and interact with each other.
 		</p>
 		<p>
-				Mark your calendar, save the dates and join us for the Developers Conference 2022 with multiple
+				Mark your calendar, save the dates and join us for the Developers Conference 2023 with multiple
 				sessions over 3 whole days of technical geekery as well as various evening entertainments. Come
 				and meet our Partners for recruitment and internship opportunities at their different booths.
 				We have some surprises also in store for you! So, come, and let's have some fun!

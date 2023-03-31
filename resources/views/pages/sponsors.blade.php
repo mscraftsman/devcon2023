@@ -13,11 +13,11 @@
 
 	<!-- Diamond Tier -->
 
-	<div class="mt-16 title--container">
+	<!-- <div class="mt-16 title--container">
 			<img class="w-12" src="/images/png/mercury.png" />
 			<p class="text-xl text-center text-gray-600 font-bold font-astronomus uppercase package--line">Mercury <span class="package font-dm">(Diamond Tier)</span></p>
 			<img class="w-12" src="/images/png/mercury.png" />
-	</div>
+	</div> -->
 
 	<!-- <div class="sponsors-logo-wrapper mercury--sponsors mb-10">
 		<div class="sponsor py-5 px-5 md:py-8 md:px-8">
