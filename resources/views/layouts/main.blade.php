@@ -12,7 +12,6 @@
 					the Developers Conference is a must. With the Virtual Conference, we missed the human touch where
 					people exchange and interact with each other."
 			/>
-
 			<link
 				rel="apple-touch-icon"
 				sizes="57x57"
@@ -161,26 +160,36 @@
 
 			<style>
 					.custom-shape-divider-bottom-1674392093 {
-							/* position: absolute; */
-							bottom: 0;
-							left: 0;
-							width: 100%;
-							overflow: hidden;
-							line-height: 0;
-							transform: rotate(180deg) translateY(-1px);
+						/* position: absolute; */
+						bottom: 0;
+						left: 0;
+						width: 100%;
+						overflow: hidden;
+						line-height: 0;
+						transform: rotate(180deg) translateY(-1px);
 					}
 
 					.custom-shape-divider-bottom-1674392093 svg {
-							position: relative;
-							display: block;
-							width: calc(100% + 1.3px);
-							/* height: 150px; */
+						position: relative;
+						display: block;
+						width: calc(100% + 1.3px);
+						/* height: 150px; */
 					}
 
 					.custom-shape-divider-bottom-1674392093 .shape-fill {
 							fill: #FFFFFF;
 					}
 			</style>
+
+			<!-- Google tag (gtag.js) -->
+			<script async src="https://www.googletagmanager.com/gtag/js?id=G-H1NBF1RG65"></script>
+			<script>
+				window.dataLayer = window.dataLayer || [];
+				function gtag(){dataLayer.push(arguments);}
+				gtag('js', new Date());
+
+				gtag('config', 'G-H1NBF1RG65');
+			</script>
 	</head>
 	<body class="font-sans text-gray-900 antialiased">
 			@include('shared.header')
