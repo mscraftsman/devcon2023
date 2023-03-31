@@ -12,10 +12,8 @@
 
 	<!-- <div class="footer--bg-2" style="background-image: url({{ asset('images/svg/footer-spaceman-3.svg') }});"></div> -->
 	<div class="footer--bg-2">
-		<img src="{{ asset('images/svg/footer-spaceman-3.svg') }}" alt="">
-		<div class="container--fw">
-			<img class="spaceman" src="{{ asset('images/svg/spaceman.svg') }}" alt="">
-		</div>
+		<img class="moon" src="{{ asset('images/svg/footer-spaceman-3.svg') }}" alt="">
+		<img class="spaceman" src="{{ asset('images/svg/spaceman.svg') }}" alt="">
 	</div>
 
 	<div class="footer--bg-bottom"></div>
