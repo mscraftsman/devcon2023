@@ -147,7 +147,7 @@
 
 			&.small {
 				img {
-					max-width: 200px;
+					max-width: 160px;
 				}
 			}
 
@@ -307,8 +307,13 @@
 						max-width: 170px;
 					}
 				}
+
+				&.large {
+					img {
+						max-width: 180px;
+					}
+				}
 			}
 		}
 	}
-
 }

@@ -121,7 +121,7 @@
 			<meta property="og:image:type" content="image/jpeg" />
 			<meta property="og:image:width" content="1400" />
 			<meta property="og:image:height" content="798" />
-			<meta property="og:title" content="Developers Conference 2023 | MSCC" />
+			<meta property="og:title" content="{{ $title ?? "Developers Conference 2023" }}" />
 			<meta
 				property="og:description"
 				content="Being the largest IT Community in Mauritius, we are so passionate about the tech world that doing
@@ -137,8 +137,8 @@
 			/>
 			<meta name="twitter:card" content="summary_large_image" />
 			<meta name="twitter:domain" content="conference.mscc.mu" />
-			<meta name="twitter:site" content="Developers Conference 2023 | MSCC" />
-			<meta name="twitter:title" content="Developers Conference 2023 | MSCC" />
+			<meta name="twitter:site" content="{{ $title ?? "Developers Conference 2023" }}" />
+			<meta name="twitter:title" content="{{ $title ?? "Developers Conference 2023" }}" />
 			<meta
 				name="twitter:description"
 				content="Being the largest IT Community in Mauritius, we are so passionate about the tech world that doing
