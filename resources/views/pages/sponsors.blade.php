@@ -19,13 +19,13 @@
 			<img class="w-12" src="/images/png/mercury.png" />
 	</div>
 
-	<div class="sponsors-logo-wrapper mercury--sponsors mb-10">
+	<!-- <div class="sponsors-logo-wrapper mercury--sponsors mb-10">
 		<div class="sponsor py-5 px-5 md:py-8 md:px-8">
 			<a href="https://www.mcb.mu" target="_blank">
 				<img src="{{ asset('images/sponsors/mcb.png') }}" />
 			</a>
 		</div>
-	</div>
+	</div> -->
 
 	<!-- Titanium Tier -->
 
