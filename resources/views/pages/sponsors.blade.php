@@ -1,8 +1,6 @@
-<section 
-		class="mt-2 px-2 mb-16 container--fw sponsors--container" 
-		style="background-image: url({{ asset('images/png/ufo.png') }}), 
-													 		url({{ asset('images/svg/astronaut.svg') }}), 
-															url({{ asset('images/svg/rocket.svg') }}), 
+<section class="mt-2 px-2 mb-16 container--fw sponsors--container" style="background-image: url({{ asset('images/png/ufo.png') }}),
+													 		url({{ asset('images/svg/astronaut.svg') }}),
+															url({{ asset('images/svg/rocket.svg') }}),
 													 		url({{ asset('images/svg/asteroid.svg') }}),
 													 		url({{ asset('images/svg/big-bang.svg') }}),
 													 		url({{ asset('images/svg/flag.svg') }}),
@@ -30,9 +28,9 @@
 	<!-- Titanium Tier -->
 
 	<div class="mt-16 title--container">
-			<img class="w-12" src="/images/png/venus.png" />
-			<p class="text-xl text-center text-gray-600 font-bold font-astronomus uppercase package--line">Venus <span class="package font-dm">(Titanium Tier)</span></p>
-			<img class="w-12" src="/images/png/venus.png" />
+		<img class="w-12" src="/images/png/venus.png" />
+		<p class="text-xl text-center text-gray-600 font-bold font-astronomus uppercase package--line">Venus <span class="package font-dm">(Titanium Tier)</span></p>
+		<img class="w-12" src="/images/png/venus.png" />
 	</div>
 
 	<div class="sponsors-logo-wrapper venus--sponsors mb-10 bottom--aligned">
@@ -51,9 +49,9 @@
 	<!-- Platinum Tier -->
 
 	<div class="mt-16 title--container">
-			<img class="w-12" src="/images/png/earth.png" />
-			<p class="text-xl text-center text-gray-600 font-bold font-astronomus uppercase package--line">Earth <span class="package font-dm">(Platinum Tier)</span></p>
-			<img class="w-12" src="/images/png/earth.png" />
+		<img class="w-12" src="/images/png/earth.png" />
+		<p class="text-xl text-center text-gray-600 font-bold font-astronomus uppercase package--line">Earth <span class="package font-dm">(Platinum Tier)</span></p>
+		<img class="w-12" src="/images/png/earth.png" />
 	</div>
 
 	<div class="sponsors-logo-wrapper earth--sponsors mb-10">
@@ -67,9 +65,9 @@
 	<!-- Gold Tier -->
 
 	<div class="mt-16 title--container">
-			<img class="w-12" src="/images/png/mars.png" />
-			<p class="text-xl text-center text-gray-600 font-bold font-astronomus uppercase package--line">Mars <span class="package font-dm">(Gold Tier)</span></p>
-			<img class="w-12" src="/images/png/mars.png" />
+		<img class="w-12" src="/images/png/mars.png" />
+		<p class="text-xl text-center text-gray-600 font-bold font-astronomus uppercase package--line">Mars <span class="package font-dm">(Gold Tier)</span></p>
+		<img class="w-12" src="/images/png/mars.png" />
 	</div>
 
 	<div class="sponsors-logo-wrapper mars--sponsors mb-10">
@@ -88,9 +86,9 @@
 	<!-- Silver Tier -->
 
 	<div class="mt-16 title--container">
-			<img class="w-12" src="/images/png/jupiter.png" />
-			<p class="text-xl text-center text-gray-600 font-bold font-astronomus uppercase package--line">Jupiter <span class="package font-dm">(Silver Tier)</span></p>
-			<img class="w-12" src="/images/png/jupiter.png" />
+		<img class="w-12" src="/images/png/jupiter.png" />
+		<p class="text-xl text-center text-gray-600 font-bold font-astronomus uppercase package--line">Jupiter <span class="package font-dm">(Silver Tier)</span></p>
+		<img class="w-12" src="/images/png/jupiter.png" />
 	</div>
 
 	<div class="sponsors-logo-wrapper jupiter--sponsors mb-10">
@@ -104,9 +102,9 @@
 	<!-- Bronze Tier -->
 
 	<div class="mt-16 title--container">
-			<img class="w-12" src="/images/png/saturn.png" />
-			<p class="text-xl text-center text-gray-600 font-bold font-astronomus uppercase package--line">Saturn <span class="package font-dm">(Bronze Tier)</span></p>
-			<img class="w-12" src="/images/png/saturn.png" />
+		<img class="w-12" src="/images/png/saturn.png" />
+		<p class="text-xl text-center text-gray-600 font-bold font-astronomus uppercase package--line">Saturn <span class="package font-dm">(Bronze Tier)</span></p>
+		<img class="w-12" src="/images/png/saturn.png" />
 	</div>
 
 	<div class="sponsors-logo-wrapper saturn--sponsors mb-10">
@@ -142,6 +140,34 @@
 		<div class="sponsor py-5 px-5 md:py-8 md:px-8 small">
 			<a href="https://www.iqera.com/" target="_blank">
 				<img src="{{ asset('images/sponsors/iqera.png') }}" />
+			</a>
+		</div>
+	</div>
+
+	<!-- Internet Sponsor -->
+
+	<div class="mt-16 title--container no--planets">
+		<p class="text-xl text-center text-gray-600 font-bold font-astronomus uppercase package--line">Internet <span class="package font-dm">(Sponsor)</span></p>
+	</div>
+
+	<div class="sponsors-logo-wrapper speaker--sponsors mb-10">
+		<div class="sponsor py-5 px-5 md:py-8 md:px-8">
+			<a href="https://www.rogerscapital.mu/" target="_blank">
+				<img src="{{ asset('images/sponsors/rcts.png') }}" />
+			</a>
+		</div>
+	</div>
+
+	<!-- Server Sponsor -->
+
+	<div class="mt-16 title--container no--planets">
+		<p class="text-xl text-center text-gray-600 font-bold font-astronomus uppercase package--line">Server <span class="package font-dm">(Sponsor)</span></p>
+	</div>
+
+	<div class="sponsors-logo-wrapper speaker--sponsors mb-10">
+		<div class="sponsor py-5 px-5 md:py-8 md:px-8">
+			<a href="https://www.cloud.mu/" target="_blank">
+				<img src="{{ asset('images/sponsors/cloud_mu.svg') }}" />
 			</a>
 		</div>
 	</div>
