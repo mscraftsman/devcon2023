@@ -60,6 +60,11 @@
 				<img src="{{ asset('images/sponsors/swan.png') }}" />
 			</a>
 		</div>
+		<div class="sponsor py-5 px-5 md:py-8 md:px-8 small">
+			<a href="https://www.iqera.com/" target="_blank">
+				<img src="{{ asset('images/sponsors/iqera.png') }}" />
+			</a>
+		</div>
 	</div>
 
 	<!-- Gold Tier -->
