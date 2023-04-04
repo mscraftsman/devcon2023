@@ -163,10 +163,10 @@
 		</div>
 	</div>
 
-	<!-- Server Sponsor -->
+	<!-- Hosting Sponsor -->
 
 	<div class="mt-16 title--container no--planets">
-		<p class="text-xl text-center text-gray-600 font-bold font-astronomus uppercase package--line">Server <span class="package font-dm">(Sponsor)</span></p>
+		<p class="text-xl text-center text-gray-600 font-bold font-astronomus uppercase package--line">Hosting <span class="package font-dm">(Sponsor)</span></p>
 	</div>
 
 	<div class="sponsors-logo-wrapper speaker--sponsors mb-10">
