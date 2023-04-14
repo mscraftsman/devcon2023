@@ -18,7 +18,7 @@
 	</div>
 
 	<div class="sponsors-logo-wrapper mercury--sponsors mb-10">
-		<div class="sponsor py-5 px-5 md:py-8 md:px-8">
+		<div class="sponsor py-5 px-5 md:py-8 md:px-10">
 			<a href="https://www.mcb.mu" target="_blank">
 				<img src="{{ asset('images/sponsors/mcb.png') }}" />
 			</a>
@@ -34,12 +34,12 @@
 	</div>
 
 	<div class="sponsors-logo-wrapper venus--sponsors mb-10 bottom--aligned">
-		<div class="sponsor py-5 px-5 md:py-8 md:px-8">
+		<div class="sponsor py-5 px-5 md:py-8 md:px-10">
 			<a href="https://www.sdworx.co.uk/en-gb/mauritius" target="_blank">
 				<img src="{{ asset('images/sponsors/sdworx.svg') }}" />
 			</a>
 		</div>
-		<div class="sponsor medium py-5 px-5 md:py-8 md:px-8">
+		<div class="sponsor medium py-5 px-5 md:py-8 md:px-10">
 			<a href="https://www.providus.mu/" target="_blank">
 				<img src="{{ asset('images/sponsors/providus.png') }}" />
 			</a>
@@ -55,12 +55,12 @@
 	</div>
 
 	<div class="sponsors-logo-wrapper earth--sponsors mb-10">
-		<div class="sponsor py-5 px-5 md:py-8 md:px-8">
+		<div class="sponsor py-5 px-5 md:py-8 md:px-10">
 			<a href="https://www.swanforlife.com/en" target="_blank">
 				<img src="{{ asset('images/sponsors/swan.png') }}" />
 			</a>
 		</div>
-		<div class="sponsor py-5 px-5 md:py-8 md:px-8 small">
+		<div class="sponsor py-5 px-5 md:py-8 md:px-10 small">
 			<a href="https://www.iqera.com/" target="_blank">
 				<img src="{{ asset('images/sponsors/iqera.png') }}" />
 			</a>
@@ -76,22 +76,22 @@
 	</div>
 
 	<div class="sponsors-logo-wrapper mars--sponsors mb-10">
-		<div class="sponsor large--high py-5 px-5 md:py-8 md:px-8">
+		<div class="sponsor large--high py-5 px-5 md:py-8 md:px-10">
 			<a href="https://www.klanik.com/" target="_blank">
 				<img src="{{ asset('images/sponsors/klanik.png') }}" />
 			</a>
 		</div>
-		<div class="sponsor small py-5 px-5 md:py-8 md:px-8">
+		<div class="sponsor small py-5 px-5 md:py-8 md:px-10">
 			<a href="https://www.elca.ch/en/elca-mauritius" target="_blank">
 				<img src="{{ asset('images/sponsors/elca.png') }}" />
 			</a>
 		</div>
-		<div class="sponsor small py-5 px-5 md:py-8 md:px-8">
+		<div class="sponsor large py-5 px-5 md:py-8 md:px-10">
 			<a href="https://www.eventstore.com/" target="_blank">
 				<img src="{{ asset('images/sponsors/event-store.png') }}" />
 			</a>
 		</div>
-		<div class="sponsor small py-5 px-5 md:py-8 md:px-8">
+		<div class="sponsor small py-5 px-5 md:py-8 md:px-10">
 			<a href="https://www.publicisgroupe.com/en/services/global-client-leaders" target="_blank">
 				<img src="{{ asset('images/sponsors/publicis.png') }}" />
 			</a>
@@ -107,7 +107,7 @@
 	</div>
 
 	<div class="sponsors-logo-wrapper jupiter--sponsors mb-10">
-		<div class="sponsor small py-5 px-5 md:py-8 md:px-8">
+		<div class="sponsor small py-5 px-5 md:py-8 md:px-10">
 			<a href="https://www.novity.io/" target="_blank">
 				<img src="{{ asset('images/sponsors/novity.svg') }}" />
 			</a>
@@ -123,17 +123,17 @@
 	</div>
 
 	<div class="sponsors-logo-wrapper saturn--sponsors mb-10">
-		<div class="sponsor small py-5 px-5 md:py-8 md:px-8">
+		<div class="sponsor small py-5 px-5 md:py-8 md:px-10">
 			<a href="https://www.maccs.mu/" target="_blank">
 				<img src="{{ asset('images/sponsors/maccs.svg') }}" />
 			</a>
 		</div>
-		<div class="sponsor py-5 px-5 md:py-8 md:px-8 large">
+		<div class="sponsor py-5 px-5 md:py-8 md:px-10 large">
 			<a href="https://www.clarity.cx/" target="_blank">
 				<img src="{{ asset('images/sponsors/clarity.png') }}" />
 			</a>
 		</div>
-		<div class="sponsor py-5 px-5 md:py-8 md:px-8 small">
+		<div class="sponsor py-5 px-5 md:py-8 md:px-10 small">
 			<a href="https://www.ios.mu/" target="_blank">
 				<img src="{{ asset('images/sponsors/ios.png') }}" />
 			</a>
@@ -147,17 +147,17 @@
 	</div>
 
 	<div class="sponsors-logo-wrapper speaker--sponsors mb-10">
-		<div class="sponsor py-5 px-5 md:py-8 md:px-8">
+		<div class="sponsor py-5 px-5 md:py-8 md:px-10">
 			<a href="https://www.ringier.com/" target="_blank">
 				<img src="{{ asset('images/sponsors/ringier.png') }}" />
 			</a>
 		</div>
-		<div class="sponsor py-5 px-5 md:py-8 md:px-8 small">
+		<div class="sponsor py-5 px-5 md:py-8 md:px-10 small">
 			<a href="https://www.iqera.com/" target="_blank">
 				<img src="{{ asset('images/sponsors/iqera.png') }}" />
 			</a>
 		</div>
-		<div class="sponsor py-5 px-5 md:py-8 md:px-8 small">
+		<div class="sponsor py-5 px-5 md:py-8 md:px-10 medium">
 			<a href="https://www.eventstore.com/" target="_blank">
 				<img src="{{ asset('images/sponsors/event-store.png') }}" />
 			</a>
@@ -171,7 +171,7 @@
 	</div>
 
 	<div class="sponsors-logo-wrapper speaker--sponsors mb-10">
-		<div class="sponsor py-5 px-5 md:py-8 md:px-8">
+		<div class="sponsor py-5 px-5 md:py-8 md:px-10">
 			<a href="https://www.rogerscapital.mu/" target="_blank">
 				<img src="{{ asset('images/sponsors/rcts.png') }}" />
 			</a>
@@ -185,7 +185,7 @@
 	</div>
 
 	<div class="sponsors-logo-wrapper speaker--sponsors mb-10">
-		<div class="sponsor py-5 px-5 md:py-8 md:px-8">
+		<div class="sponsor py-5 px-5 md:py-8 md:px-10">
 			<a href="https://www.cloud.mu/" target="_blank">
 				<img src="{{ asset('images/sponsors/cloud_mu.svg') }}" />
 			</a>
