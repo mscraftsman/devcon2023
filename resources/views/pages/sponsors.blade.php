@@ -86,6 +86,16 @@
 				<img src="{{ asset('images/sponsors/elca.png') }}" />
 			</a>
 		</div>
+		<div class="sponsor small py-5 px-5 md:py-8 md:px-8">
+			<a href="https://www.eventstore.com/" target="_blank">
+				<img src="{{ asset('images/sponsors/event-store.png') }}" />
+			</a>
+		</div>
+		<div class="sponsor small py-5 px-5 md:py-8 md:px-8">
+			<a href="https://www.publicisgroupe.com/en/services/global-client-leaders" target="_blank">
+				<img src="{{ asset('images/sponsors/publicis.png') }}" />
+			</a>
+		</div>
 	</div>
 
 	<!-- Silver Tier -->
@@ -133,7 +143,7 @@
 	<!-- Speaker Tier -->
 
 	<div class="mt-16 title--container no--planets">
-		<p class="text-xl text-center text-gray-600 font-bold font-astronomus uppercase package--line">Speaker <span class="package font-dm">(Sponsor)</span></p>
+		<p class="text-xl text-center text-gray-600 font-bold font-astronomus uppercase package--line">Speaker Sponsor</p>
 	</div>
 
 	<div class="sponsors-logo-wrapper speaker--sponsors mb-10">
@@ -147,12 +157,17 @@
 				<img src="{{ asset('images/sponsors/iqera.png') }}" />
 			</a>
 		</div>
+		<div class="sponsor py-5 px-5 md:py-8 md:px-8 small">
+			<a href="https://www.eventstore.com/" target="_blank">
+				<img src="{{ asset('images/sponsors/event-store.png') }}" />
+			</a>
+		</div>
 	</div>
 
 	<!-- Internet Sponsor -->
 
 	<div class="mt-16 title--container no--planets">
-		<p class="text-xl text-center text-gray-600 font-bold font-astronomus uppercase package--line">Internet <span class="package font-dm">(Sponsor)</span></p>
+		<p class="text-xl text-center text-gray-600 font-bold font-astronomus uppercase package--line">Internet Sponsor</p>
 	</div>
 
 	<div class="sponsors-logo-wrapper speaker--sponsors mb-10">
@@ -166,7 +181,7 @@
 	<!-- Hosting Sponsor -->
 
 	<div class="mt-16 title--container no--planets">
-		<p class="text-xl text-center text-gray-600 font-bold font-astronomus uppercase package--line">Hosting <span class="package font-dm">(Sponsor)</span></p>
+		<p class="text-xl text-center text-gray-600 font-bold font-astronomus uppercase package--line">Hosting Sponsor</span></p>
 	</div>
 
 	<div class="sponsors-logo-wrapper speaker--sponsors mb-10">
