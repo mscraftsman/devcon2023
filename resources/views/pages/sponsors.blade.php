@@ -157,7 +157,7 @@
 				<img src="{{ asset('images/sponsors/iqera.png') }}" />
 			</a>
 		</div>
-		<div class="sponsor py-5 px-5 md:py-8 md:px-10 medium">
+		<div class="sponsor large py-5 px-5 md:py-8 md:px-10 medium">
 			<a href="https://www.eventstore.com/" target="_blank">
 				<img src="{{ asset('images/sponsors/event-store.png') }}" />
 			</a>
