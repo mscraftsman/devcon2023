@@ -138,6 +138,11 @@
 				<img src="{{ asset('images/sponsors/ios.png') }}" />
 			</a>
 		</div>
+		<div class="sponsor py-5 px-5 md:py-8 md:px-10 small">
+			<a href="https://thundergear.io/" target="_blank">
+				<img src="{{ asset('images/sponsors/mostickers.png') }}" />
+			</a>
+		</div>
 	</div>
 
 	<!-- Speaker Tier -->
