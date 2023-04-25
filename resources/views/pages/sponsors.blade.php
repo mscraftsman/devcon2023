@@ -75,7 +75,7 @@
 		<img class="w-12" src="/images/png/mars.png" />
 	</div>
 
-	<div class="sponsors-logo-wrapper mars--sponsors mb-10">
+	<div class="sponsors-logo-wrapper mars--sponsors">
 		<div class="sponsor large--high py-5 px-5 md:py-8 md:px-10">
 			<a href="https://www.klanik.com/" target="_blank">
 				<img src="{{ asset('images/sponsors/klanik.png') }}" />
@@ -91,9 +91,16 @@
 				<img src="{{ asset('images/sponsors/event-store.png') }}" />
 			</a>
 		</div>
+	</div>
+	<div class="sponsors-logo-wrapper mars--sponsors mb-10">
 		<div class="sponsor small py-5 px-5 md:py-8 md:px-10">
 			<a href="https://www.publicisgroupe.com/en/services/global-client-leaders" target="_blank">
 				<img src="{{ asset('images/sponsors/publicis.png') }}" />
+			</a>
+		</div>
+		<div class="sponsor py-5 px-5 md:py-8 md:px-10">
+			<a href="https://www.cloud.mu/" target="_blank">
+				<img src="{{ asset('images/sponsors/cloud_mu.svg') }}" />
 			</a>
 		</div>
 	</div>
@@ -122,7 +129,7 @@
 		<img class="w-12" src="/images/png/saturn.png" />
 	</div>
 
-	<div class="sponsors-logo-wrapper saturn--sponsors mb-10">
+	<div class="sponsors-logo-wrapper saturn--sponsors">
 		<div class="sponsor small py-5 px-5 md:py-8 md:px-10">
 			<a href="https://www.maccs.mu/" target="_blank">
 				<img src="{{ asset('images/sponsors/maccs.svg') }}" />
@@ -138,9 +145,16 @@
 				<img src="{{ asset('images/sponsors/ios.png') }}" />
 			</a>
 		</div>
+	</div>
+	<div class="sponsors-logo-wrapper saturn--sponsors mb-10">
 		<div class="sponsor py-5 px-5 md:py-8 md:px-10 small">
 			<a href="https://thundergear.io/" target="_blank">
 				<img src="{{ asset('images/sponsors/mostickers.png') }}" />
+			</a>
+		</div>
+		<div class="sponsor py-5 px-5 md:py-8 md:px-10 small">
+			<a href="https://www.alludo.com/" target="_blank">
+				<img src="{{ asset('images/sponsors/alludo.png') }}" />
 			</a>
 		</div>
 	</div>
