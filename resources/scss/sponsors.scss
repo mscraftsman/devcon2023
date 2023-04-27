@@ -151,7 +151,7 @@
 		}
 	}
 
-	&.speaker--sponsors {
+	&.speaker--sponsors, &.internet--sponsor, &.hosting--sponsors, &.entertainment--sponsors {
 		.sponsor {
 			img {
 				max-width: 230px;
@@ -176,6 +176,36 @@
 			}
 		}
 	}
+
+
+		&.speaker--sponsors,
+		&.internet--sponsor,
+		&.hosting--sponsors,
+		&.entertainment--sponsors {
+			.sponsor {
+				img {
+					max-width: 230px;
+				}
+	
+				&.small {
+					img {
+						max-width: 160px;
+					}
+				}
+	
+				&.medium {
+					img {
+						max-width: 190px;
+					}
+				}
+	
+				&.large {
+					img {
+						max-width: 230px;
+					}
+				}
+			}
+		}
 }
 
 @media (max-width: 768px) {
@@ -236,6 +266,12 @@
 				&.large {
 					img {
 						max-width: 180px;
+					}
+				}
+
+				&.larger {
+					img {
+						max-width: 210px;
 					}
 				}
 	

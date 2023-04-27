@@ -103,6 +103,11 @@
 				<img src="{{ asset('images/sponsors/cloud_mu.svg') }}" />
 			</a>
 		</div>
+		<div class="sponsor py-5 px-5 md:py-8 md:px-10 larger">
+			<a href="https://bolttalent.com/" target="_blank">
+				<img src="{{ asset('images/sponsors/bolt.png') }}" />
+			</a>
+		</div>
 	</div>
 
 	<!-- Silver Tier -->
@@ -189,7 +194,7 @@
 		<p class="text-xl text-center text-gray-600 font-bold font-astronomus uppercase package--line">Internet Sponsor</p>
 	</div>
 
-	<div class="sponsors-logo-wrapper speaker--sponsors mb-10">
+	<div class="sponsors-logo-wrapper internet--sponsors mb-10">
 		<div class="sponsor py-5 px-5 md:py-8 md:px-10">
 			<a href="https://www.rogerscapital.mu/" target="_blank">
 				<img src="{{ asset('images/sponsors/rcts.png') }}" />
@@ -203,10 +208,24 @@
 		<p class="text-xl text-center text-gray-600 font-bold font-astronomus uppercase package--line">Hosting Sponsor</span></p>
 	</div>
 
-	<div class="sponsors-logo-wrapper speaker--sponsors mb-10">
+	<div class="sponsors-logo-wrapper hosting--sponsors mb-10">
 		<div class="sponsor py-5 px-5 md:py-8 md:px-10">
 			<a href="https://www.cloud.mu/" target="_blank">
 				<img src="{{ asset('images/sponsors/cloud_mu.svg') }}" />
+			</a>
+		</div>
+	</div>
+
+	<!-- Entertainment Sponsor -->
+
+	<div class="mt-16 title--container no--planets">
+		<p class="text-xl text-center text-gray-600 font-bold font-astronomus uppercase package--line">Entertainment Sponsor</span></p>
+	</div>
+
+	<div class="sponsors-logo-wrapper entertainment--sponsors mb-10 ">
+		<div class="sponsor py-5 px-5 md:py-8 md:px-10 small">
+			<a href="https://www.facebook.com/fakeartist.alchimie.5" target="_blank">
+				<img src="{{ asset('images/sponsors/fake.png') }}" />
 			</a>
 		</div>
 	</div>
