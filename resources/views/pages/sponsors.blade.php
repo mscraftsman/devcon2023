@@ -216,6 +216,20 @@
 		</div>
 	</div>
 
+	<!-- Networking Hour Sponsor -->
+
+	<div class="mt-16 title--container no--planets">
+		<p class="text-xl text-center text-gray-600 font-bold font-astronomus uppercase package--line">Networking Hour Sponsor</span></p>
+	</div>
+
+	<div class="sponsors-logo-wrapper hosting--sponsors mb-10">
+		<div class="sponsor py-5 px-5 md:py-8 md:px-10">
+			<a href="https://www.spoonconsulting.com/" target="_blank">
+				<img src="{{ asset('images/sponsors/spoon-consulting.svg') }}" />
+			</a>
+		</div>
+	</div>
+
 	<!-- Entertainment Sponsor -->
 
 	<div class="mt-16 title--container no--planets">
