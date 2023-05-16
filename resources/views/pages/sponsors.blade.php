@@ -238,7 +238,7 @@
 
 	<div class="sponsors-logo-wrapper entertainment--sponsors mb-10 ">
 		<div class="sponsor py-5 px-5 md:py-8 md:px-10 small">
-			<a href="https://www.facebook.com/fakeartist.alchimie.5" target="_blank">
+			<a href="https://alchimiecolorist.com/" target="_blank">
 				<img src="{{ asset('images/sponsors/fake.png') }}" />
 			</a>
 		</div>
