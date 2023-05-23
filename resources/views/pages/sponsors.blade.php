@@ -124,7 +124,7 @@
 				<img src="{{ asset('images/sponsors/novity.svg') }}" />
 			</a>
 		</div>
-		<div class="sponsor small py-5 px-5 md:py-8 md:px-10">
+		<div class="sponsor medium py-5 px-5 md:py-8 md:px-10">
 			<a href="https://www.frci.net/" target="_blank">
 				<img src="{{ asset('images/sponsors/frci.png') }}" />
 			</a>
@@ -162,7 +162,7 @@
 				<img src="{{ asset('images/sponsors/mostickers.png') }}" />
 			</a>
 		</div>
-		<div class="sponsor py-5 px-5 md:py-8 md:px-10 small">
+		<div class="sponsor py-5 px-5 md:py-8 md:px-10 large">
 			<a href="https://www.alludo.com/" target="_blank">
 				<img src="{{ asset('images/sponsors/alludo.png') }}" />
 			</a>

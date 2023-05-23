@@ -128,6 +128,13 @@
 					max-width: 100px;
 				}
 			}
+
+			&.medium {
+				img {
+					// height: 70px;
+					max-width: 140px;
+				}
+			}
 		}
 	}
 
@@ -287,6 +294,12 @@
 				&.small {
 					img {
 						max-width: 80px;
+					}
+				}
+				&.medium {
+					img {
+						// height: 70px;
+						max-width: 100px;
 					}
 				}
 			}
