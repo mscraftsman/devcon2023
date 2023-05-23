@@ -124,6 +124,11 @@
 				<img src="{{ asset('images/sponsors/novity.svg') }}" />
 			</a>
 		</div>
+		<div class="sponsor small py-5 px-5 md:py-8 md:px-10">
+			<a href="https://www.frci.net/" target="_blank">
+				<img src="{{ asset('images/sponsors/frci.png') }}" />
+			</a>
+		</div>
 	</div>
 
 	<!-- Bronze Tier -->
@@ -186,6 +191,11 @@
 				<img src="{{ asset('images/sponsors/event-store.png') }}" />
 			</a>
 		</div>
+		<div class="sponsor small py-5 px-5 md:py-8 md:px-10 medium">
+			<a href="https://www.net2be.services/" target="_blank">
+				<img src="{{ asset('images/sponsors/zoho-nettobe.png') }}" />
+			</a>
+		</div>
 	</div>
 
 	<!-- Internet Sponsor -->
@@ -226,6 +236,20 @@
 		<div class="sponsor py-5 px-5 md:py-8 md:px-10">
 			<a href="https://www.spoonconsulting.com/" target="_blank">
 				<img src="{{ asset('images/sponsors/spoon-consulting.svg') }}" />
+			</a>
+		</div>
+	</div>
+
+	<!-- Media Partner Tier -->
+
+	<div class="mt-16 title--container no--planets">
+		<p class="text-xl text-center text-gray-600 font-bold font-astronomus uppercase package--line">Media Partner</span></p>
+	</div>
+
+	<div class="sponsors-logo-wrapper hosting--sponsors mb-10">
+		<div class="sponsor py-5 px-5 md:py-8 md:px-10">
+			<a href="https://lasentinelle.mu" target="_blank">
+				<img src="{{ asset('images/sponsors/lasentinelle.svg') }}" />
 			</a>
 		</div>
 	</div>
