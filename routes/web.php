@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 
+use App\Http\Controllers\SpeakersController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -27,3 +29,10 @@ Route::get('/community', function () {
     $title = 'MSCC — Community';
     return view('community', compact('title'));
 })->name('community');
+
+// Route::get('/speakers', function () {
+//     $title = 'MSCC — Speakers';
+//     return view('speakers', compact('title'));
+// })->name('speakers');
+
+Route::get('/speakers', [SpeakersController::class, 'index'])->name('speakers');
