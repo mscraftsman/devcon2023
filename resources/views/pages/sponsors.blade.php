@@ -23,6 +23,11 @@
 				<img src="{{ asset('images/sponsors/mcb.png') }}" />
 			</a>
 		</div>
+		<div class="sponsor medium py-5 px-5 md:py-8 md:px-10">
+			<a href="https://liquid.tech" target="_blank">
+				<img src="{{ asset('images/sponsors/liquid-telecom.png') }}" />
+			</a>
+		</div>
 	</div>
 
 	<!-- Titanium Tier -->

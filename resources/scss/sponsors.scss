@@ -59,6 +59,16 @@
 		}
 	}
 
+	&.mercury--sponsors {
+		.sponsor {
+			&.medium {
+				img {
+					max-width: 270px;
+				}
+			}
+		}
+	}
+
 	&.venus--sponsors {
 		.sponsor {
 			img {
