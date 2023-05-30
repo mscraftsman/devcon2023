@@ -9,7 +9,7 @@
 			<div class="grid xs:grid-cols-2 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-4">
 					@foreach($speakers as $speaker)
 						<a href="/speaker/{{ $speaker['id'] }}" class="p-5 transition-all hover:scale-110">
-							<img class="w-24 h-24 rounded-full mx-auto drop-shadow-xl" src="{{ $speaker['profilePicture'] }}">
+							<img class="w-28 h-28 rounded-full mx-auto drop-shadow-xl" src="{{ $speaker['profilePicture'] }}">
 							<div class="pt-6 text-center space-y-3">
 								<figcaption class="font-medium">
 									<div class="font-astronomus uppercase font-bold text-slate-800 mb-2">
