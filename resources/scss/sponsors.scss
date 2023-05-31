@@ -59,6 +59,16 @@
 		}
 	}
 
+	&.mercury--sponsors {
+		.sponsor {
+			&.medium {
+				img {
+					max-width: 270px;
+				}
+			}
+		}
+	}
+
 	&.venus--sponsors {
 		.sponsor {
 			img {
@@ -126,6 +136,13 @@
 				img {
 					// height: 70px;
 					max-width: 100px;
+				}
+			}
+
+			&.medium {
+				img {
+					// height: 70px;
+					max-width: 140px;
 				}
 			}
 		}
@@ -289,6 +306,12 @@
 						max-width: 80px;
 					}
 				}
+				&.medium {
+					img {
+						// height: 70px;
+						max-width: 100px;
+					}
+				}
 			}
 		}
 
@@ -335,6 +358,16 @@
 		.sponsor {
 			display: flex;
 			justify-content: center;
+		}
+
+		&.mercury--sponsors {
+			.sponsor {
+				&.medium {
+					img {
+						max-width: 210px;
+					}
+				}
+			}
 		}
 
 		&.venus--sponsors {

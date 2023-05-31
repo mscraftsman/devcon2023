@@ -14,3 +14,23 @@
 				We have some surprises also in store for you! So, come, and let's have some fun!
 		</p>
 </div>
+
+<div class="video-parent--container">
+	<div class=" px-10 max-[768px]:px-3 mb-5 video--container flex justify-center">
+		<div class=" video--outer fluid-width-video-wrapper" >
+			<iframe 
+				width="560"
+				height="315" 
+				src="https://www.youtube.com/embed/1i9DTor7-SQ?controls=0" 
+				title="YouTube video player" 
+				frameborder="0" 
+				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+				class="drop-shadow-md"
+				allowfullscreen>
+			</iframe>
+		</div>
+	</div>
+	<div class="wave">
+		<img src="{{ asset('images/svg/white-wave.svg') }}" alt="">
+	</div>
+</div>

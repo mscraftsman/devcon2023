@@ -23,6 +23,11 @@
 				<img src="{{ asset('images/sponsors/mcb.png') }}" />
 			</a>
 		</div>
+		<div class="sponsor medium py-5 px-5 md:py-8 md:px-10">
+			<a href="https://liquid.tech" target="_blank">
+				<img src="{{ asset('images/sponsors/liquid-telecom.png') }}" />
+			</a>
+		</div>
 	</div>
 
 	<!-- Titanium Tier -->
@@ -124,6 +129,11 @@
 				<img src="{{ asset('images/sponsors/novity.svg') }}" />
 			</a>
 		</div>
+		<div class="sponsor medium py-5 px-5 md:py-8 md:px-10">
+			<a href="https://www.frci.net/" target="_blank">
+				<img src="{{ asset('images/sponsors/frci.png') }}" />
+			</a>
+		</div>
 	</div>
 
 	<!-- Bronze Tier -->
@@ -157,7 +167,7 @@
 				<img src="{{ asset('images/sponsors/mostickers.png') }}" />
 			</a>
 		</div>
-		<div class="sponsor py-5 px-5 md:py-8 md:px-10 small">
+		<div class="sponsor py-5 px-5 md:py-8 md:px-10 large">
 			<a href="https://www.alludo.com/" target="_blank">
 				<img src="{{ asset('images/sponsors/alludo.png') }}" />
 			</a>
@@ -184,6 +194,11 @@
 		<div class="sponsor large py-5 px-5 md:py-8 md:px-10 medium">
 			<a href="https://www.eventstore.com/" target="_blank">
 				<img src="{{ asset('images/sponsors/event-store.png') }}" />
+			</a>
+		</div>
+		<div class="sponsor small py-5 px-5 md:py-8 md:px-10 medium">
+			<a href="https://www.net2be.services/" target="_blank">
+				<img src="{{ asset('images/sponsors/zoho-nettobe.png') }}" />
 			</a>
 		</div>
 	</div>
@@ -216,6 +231,34 @@
 		</div>
 	</div>
 
+	<!-- Networking Hour Sponsor -->
+
+	<div class="mt-16 title--container no--planets">
+		<p class="text-xl text-center text-gray-600 font-bold font-astronomus uppercase package--line">Networking Hour Sponsor</span></p>
+	</div>
+
+	<div class="sponsors-logo-wrapper hosting--sponsors mb-10">
+		<div class="sponsor py-5 px-5 md:py-8 md:px-10">
+			<a href="https://www.spoonconsulting.com/" target="_blank">
+				<img src="{{ asset('images/sponsors/spoon-consulting.svg') }}" />
+			</a>
+		</div>
+	</div>
+
+	<!-- Media Partner Tier -->
+
+	<div class="mt-16 title--container no--planets">
+		<p class="text-xl text-center text-gray-600 font-bold font-astronomus uppercase package--line">Media Partner</span></p>
+	</div>
+
+	<div class="sponsors-logo-wrapper hosting--sponsors mb-10">
+		<div class="sponsor py-5 px-5 md:py-8 md:px-10">
+			<a href="https://lasentinelle.mu" target="_blank">
+				<img src="{{ asset('images/sponsors/lasentinelle.svg') }}" />
+			</a>
+		</div>
+	</div>
+
 	<!-- Entertainment Sponsor -->
 
 	<div class="mt-16 title--container no--planets">
@@ -224,7 +267,7 @@
 
 	<div class="sponsors-logo-wrapper entertainment--sponsors mb-10 ">
 		<div class="sponsor py-5 px-5 md:py-8 md:px-10 small">
-			<a href="https://www.facebook.com/fakeartist.alchimie.5" target="_blank">
+			<a href="https://alchimiecolorist.com/" target="_blank">
 				<img src="{{ asset('images/sponsors/fake.png') }}" />
 			</a>
 		</div>
