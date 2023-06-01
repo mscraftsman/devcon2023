@@ -122,6 +122,12 @@
 					max-width: 180px;
 				}
 			}
+
+			&.small--high {
+				img {
+					max-height: 85px;
+				}
+			}
 		}
 	}
 
@@ -408,6 +414,13 @@
 
 				&.small {
 					img {
+						max-width: 130px;
+					}
+				}
+
+				&.small--high {
+					img {
+						max-height: auto;
 						max-width: 130px;
 					}
 				}

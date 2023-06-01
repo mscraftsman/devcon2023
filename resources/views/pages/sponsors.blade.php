@@ -98,19 +98,24 @@
 		</div>
 	</div>
 	<div class="sponsors-logo-wrapper mars--sponsors mb-10">
-		<div class="sponsor small py-5 px-5 md:py-8 md:px-10">
+		<div class="sponsor small--high py-5 px-5 md:py-8 md:px-10">
 			<a href="https://www.publicisgroupe.com/en/services/global-client-leaders" target="_blank">
 				<img src="{{ asset('images/sponsors/publicis.png') }}" />
 			</a>
 		</div>
-		<div class="sponsor py-5 px-5 md:py-8 md:px-10">
+		<div class="sponsor small--high py-5 px-5 md:py-8 md:px-10 ">
 			<a href="https://www.cloud.mu/" target="_blank">
 				<img src="{{ asset('images/sponsors/cloud_mu.svg') }}" />
 			</a>
 		</div>
-		<div class="sponsor py-5 px-5 md:py-8 md:px-10 larger">
+		<div class="sponsor small--high py-5 px-5 md:py-8 md:px-10 ">
 			<a href="https://bolttalent.com/" target="_blank">
 				<img src="{{ asset('images/sponsors/bolt.png') }}" />
+			</a>
+		</div>
+		<div class="sponsor small--high py-5 px-5 md:py-8 md:px-10 ">
+			<a href="https://www.frci.net/" target="_blank">
+				<img src="{{ asset('images/sponsors/frci.png') }}" />
 			</a>
 		</div>
 	</div>
@@ -127,11 +132,6 @@
 		<div class="sponsor small py-5 px-5 md:py-8 md:px-10">
 			<a href="https://www.novity.io/" target="_blank">
 				<img src="{{ asset('images/sponsors/novity.svg') }}" />
-			</a>
-		</div>
-		<div class="sponsor medium py-5 px-5 md:py-8 md:px-10">
-			<a href="https://www.frci.net/" target="_blank">
-				<img src="{{ asset('images/sponsors/frci.png') }}" />
 			</a>
 		</div>
 	</div>
