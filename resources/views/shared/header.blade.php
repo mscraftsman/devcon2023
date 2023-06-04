@@ -1,8 +1,8 @@
 <nav class="main--navigation" x-data="{ open: false }">
-	<div class="px-2 py-2 max-w-7xl mx-auto flex flex-row justify-between flex flex-col lg:flex-row">
+	<div class="px-2 py-3 max-w-7xl mx-auto flex flex-row justify-between flex flex-col lg:flex-row">
 			<div class="flex flex-row justify-between">
-					<a class="group flex flex-row gap-4 items-center text-gray-200 text-xl font-astronomus font-bold uppercase" href="/">
-							<img class="h-12 lg:h-10" src="{{ asset('images/svg/mscc-logo.svg') }}" />
+					<a class="group flex flex-row gap-4 items-center text-gray-200 font-astronomus font-bold uppercase" href="/">
+							<img class="h-9 lg:h-9" src="{{ asset('images/svg/mscc-logo.svg') }}" />
 							<div class="invisible lg:visible logo--text">Developers Conference <br/><span class="text-mustard">2023</span></div>
 					</a>
 					<button class="text-xs text-white font-bold uppercase lg:hidden" @click="open = !open">

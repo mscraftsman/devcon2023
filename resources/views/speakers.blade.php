@@ -1,6 +1,6 @@
 @extends('layouts.main')
 @section('content')
-	<section class="mt-20 max-w-6xl px-3 mx-auto">
+	<section class="mt-20 pt-8 max-w-6xl px-3 mx-auto">
     <h1 class="text-center text-gray-700 mt-5 text-5xl font-astronomus uppercase">Speakers</h1>
 
 		@if(isset($error))
