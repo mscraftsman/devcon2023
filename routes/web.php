@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 
 use App\Http\Controllers\SpeakersController;
+use App\Http\Controllers\AgendaController;
 use App\Http\Controllers\SpeakerController;
 use App\Http\Controllers\SessionsContentController;
 
@@ -33,10 +34,10 @@ Route::get('/community', function () {
     return view('community', compact('title'));
 })->name('community');
 
-Route::get('/agenda', function () {
-    $title = 'MSCC — Agenda';
-    return view('agenda', compact('title'));
-})->name('agenda');
+// Route::get('/agenda', function () {
+//     $title = 'MSCC — Agenda';
+//     return view('agenda', compact('title'));
+// })->name('agenda');
 
 // Route::get('/speakers', function () {
 //     $title = 'MSCC — Speakers';
@@ -44,6 +45,9 @@ Route::get('/agenda', function () {
 // })->name('speakers');
 
 Route::get('/speakers', [SpeakersController::class, 'index'])->name('speakers');
+
+Route::get('/agenda', [AgendaController::class, 'index'])->name('agenda');
+
 Route::get('/speaker/{id}', [SpeakerController::class, 'searchById'])->name('speaker');
 
 Route::get("/sessionsdata", [SessionsContentController::class, "index"]);
