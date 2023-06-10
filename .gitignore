@@ -26,3 +26,4 @@ yarn-error.log
 ehthumbs.db
 Thumbs.db
 database.sqlite
+/storage/data/*
