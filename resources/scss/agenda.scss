@@ -8,13 +8,31 @@
 	}
 }
 
+.time__tag {
+	transform: translateY(-30px);
+	z-index: 1;
+	position: relative;
+}
+
+.time__track {
+
+	.line {
+		height: 1px;
+		background: #fece00;
+		width: 1262px;
+		display: block;
+		transform: translateY(-47px);
+		z-index: 0;
+	}
+}
+
 .sessions__column {
 	width: 100%;
 }
 
 .track__session {
 	display: grid;
-	grid-template-columns: repeat(4, 1fr);
+	grid-template-columns: 70px repeat(4, 1fr);
 	// grid-template-rows: repeat(10, 120px);
 	grid-gap: 10px;
 }

@@ -13,17 +13,16 @@ class AgendaController extends Controller {
         $groupedSessionsBySlot = [];
 
         foreach ($sessions as $day) {
-            $dayGroup = $day['groupName'];
-            foreach ($day['sessions'] as $session) {
-                $room = $session['room'];
-								$id = $session['id'];
-                $groupedSessions[$dayGroup][$id] = $session;
-            }
+					$dayGroup = $day['groupName'];
+					foreach ($day['sessions'] as $session) {
+							$room = $session['room'];
+							$id = $session['id'];
+							$groupedSessions[$dayGroup][$id] = $session;
+					}
         }
-
-				$roomNames = ['andromeda', 'pandora', 'titan', 'tatooine'];
+				
+				$roomNames = ['time', 'andromeda', 'pandora', 'titan', 'tatooine'];
 				$time_range = [
-					'08:00',
 					'09:00',
 					'10:00',
 					'11:00',
@@ -32,7 +31,6 @@ class AgendaController extends Controller {
 					'14:00',
 					'15:00',
 					'16:00',
-					'17:00'
 				];
 
 				$cellIds = [];
@@ -42,6 +40,6 @@ class AgendaController extends Controller {
 						}
 				}
 
-				return view('agenda', compact('groupedSessions', 'title', 'cellIds'));	
+				return view('agenda', compact('groupedSessions', 'title', 'cellIds', 'time_range'));	
   	}
 }

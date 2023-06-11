@@ -19,7 +19,7 @@ if (! function_exists('convertDateTimeToTime')) {
 if (! function_exists('generateGridTemplateAreas')) {
     function generateGridTemplateAreas($cellIds)
     {
-        $columns = 4;
+        $columns = 5;
         $rows = ceil(count($cellIds) / $columns);
 
         $gridTemplateAreas = '';
@@ -37,7 +37,6 @@ if (! function_exists('generateGridTemplateAreas')) {
     }
 }
 
-
 if (! function_exists('calculatePlacement')) {
     function calculatePlacement($session)
     {
@@ -51,5 +50,34 @@ if (! function_exists('calculatePlacement')) {
         $placement = strtolower($room) . '-' . $formattedTime;    
 
         return $placement;
+    }
+}
+
+if (! function_exists('calculateTimePlacement')) {
+    function calculateTimePlacement($time)
+    {
+        $formattedTime = str_replace(':', '', $time);
+        $placement = 'time' . '-' . $formattedTime;    
+        return $placement;
+    }
+}
+
+if (! function_exists('getSpeakerPicture')) {
+    function getSpeakerPicture($id)
+    {
+		$speakers = json_decode(file_get_contents(storage_path() . "/data/speakers.json"), true);
+		$result = array_filter($speakers, function ($object) use ($id) {
+            return $object['id'] == $id;
+        });
+
+        $photo = '';
+
+        if (!empty($result)) {
+            foreach($result as $s) {
+                $photo = $s['profilePicture'];
+                break; 
+            }
+        }
+        return $photo;
     }
 }
