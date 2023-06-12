@@ -14,7 +14,9 @@ module.exports = {
         dm: ['DM Sans', 'sans-serif'],
       },
       colors: {
-          mustard: '#fdce00',
+        mustard: '#fdce00',
+        purple: 'rgb(47, 32, 82)',
+        purpleDark: 'rgb(25, 16, 41)',
       },
       spacing: {
         '26': '26rem',

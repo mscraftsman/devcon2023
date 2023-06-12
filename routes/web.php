@@ -2,6 +2,12 @@
 
 use Illuminate\Support\Facades\Route;
 
+use App\Http\Controllers\SpeakersController;
+use App\Http\Controllers\AgendaController;
+use App\Http\Controllers\SpeakerController;
+use App\Http\Controllers\SessionsContentController;
+
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -22,3 +28,26 @@ Route::get('/code-of-conduct', function () {
     $title = 'MSCC — Code of Conduct';
     return view('conduct', compact('title'));
 })->name('code-of-conduct');
+
+Route::get('/community', function () {
+    $title = 'MSCC — Community';
+    return view('community', compact('title'));
+})->name('community');
+
+// Route::get('/agenda', function () {
+//     $title = 'MSCC — Agenda';
+//     return view('agenda', compact('title'));
+// })->name('agenda');
+
+// Route::get('/speakers', function () {
+//     $title = 'MSCC — Speakers';
+//     return view('speakers', compact('title'));
+// })->name('speakers');
+
+Route::get('/speakers', [SpeakersController::class, 'index'])->name('speakers');
+
+Route::get('/agenda', [AgendaController::class, 'index'])->name('agenda');
+
+Route::get('/speaker/{id}', [SpeakerController::class, 'searchById'])->name('speaker');
+
+Route::get("/sessionsdata", [SessionsContentController::class, "index"]);
