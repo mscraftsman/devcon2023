@@ -6,9 +6,10 @@
 	</section>
   <section class="mt-10 max-w-7xl px-2 mx-auto flex">
 
-    <div class="sessions__column">
-      <div class="tracks__container grid grid-cols-4 gap-4 mb-10 ml-20">
+   
 
+    <div class="sessions__column">
+      <div class="tracks__container grid grid-cols-4 gap-2 mb-10 ml-20" id="rooms-bar">
         <div class="track__title text-center bg-purple text-white py-4 uppercase font-bold rounded-md">
           Andromeda
         </div>
