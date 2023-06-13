@@ -1,10 +1,15 @@
 @extends('layouts.main')
 @section('content')
   <div x-data="{ selectedOption: 'thursday' }">
-    <section class="mt-20 max-w-4xl px-3 mx-auto">
-      <h2 class="text-center font-astronomus font-medium  uppercase font-dm text-mustard pt-10">What's on the menu</h2>
-      <h1 class="text-center mt-1 text-gray-700 text-6xl font-astronomus uppercase font-bold">Agenda</h1>
+
+    <section class="bg-slate-100">
+      <section class="pt-20 pb-10 max-w-4xl px-3 mb-7 mx-auto ">
+        <h2 class="text-center font-astronomus font-bold uppercase font-dm text-purple pt-10">Tropical Tech Revolution Unveiled</h2>
+        <h1 class="text-center mt-1 text-gray-700 text-6xl font-astronomus uppercase font-bold mb-1">Agenda</h1>
+        <p class="text-center text-slate-400 font-dm max-w-3xl text-lg">Experience the ultimate blend of paradise and progress at the DevCon, where industry pioneers and disruptors converge to shape the destiny of technology</p>
+      </section>
     </section>
+
     <section class="mt-10 max-w-7xl px-2 mx-auto" >
       <div class="day__selector">
         <div class="days__container grid grid-cols-3 gap-2" >
