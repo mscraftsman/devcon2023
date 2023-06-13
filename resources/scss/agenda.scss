@@ -4,20 +4,28 @@
 	}
 
 	.session__wrapper {
-			min-height: 120px;
+		min-height: 100px;
+		display: block !important;
 	}
 }
 
-.tracks__container + .track__session {
-	// padding-top: 102px;
+.tracks__container {
+	position: absolute;
+	width: 1183px;
+	top: 0;
+	transition: all 0.4s ease-in-out;
 }
 
 .sticky {
 	position: fixed;
 	top: 0;
-	padding-top: 100px;
-	width: 1183px;
+	padding-top: 80px;
+	width: 1180px;
 	z-index: 90;
+
+	.track__title {
+		box-shadow: 2px 5px 10px rgba(0,0,0,0.2);
+	}
 }
 
 .time__tag {
@@ -40,6 +48,7 @@
 
 .sessions__column {
 	width: 100%;
+	position: relative;
 }
 
 .track__session {
@@ -47,6 +56,7 @@
 	grid-template-columns: 70px repeat(4, 1fr);
 	// grid-template-rows: repeat(10, 120px);
 	grid-gap: 10px;
+	margin-top: 100px;
 }
 
 .cell {

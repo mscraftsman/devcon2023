@@ -33,13 +33,39 @@ class AgendaController extends Controller {
 					'16:00',
 				];
 
+				$time_range_friday = [
+					'08:30',
+					'09:00',
+					'10:00',
+					'11:00',
+					'12:00',
+					'13:00',
+					'14:00',
+					'15:00',
+					'16:00',
+				];
+
 				$cellIds = [];
+				$cellIdsFriday = [];
+
 				foreach ($time_range as $time) {
 						foreach ($roomNames as $room) {
 								$cellIds[] = $room . '-' . str_replace(':', '', $time);
 						}
 				}
 
-				return view('agenda', compact('groupedSessions', 'title', 'cellIds', 'time_range'));	
+				foreach ($time_range_friday as $time) {
+					foreach ($roomNames as $room) {
+							$cellIdsFriday[] = $room . '-' . str_replace(':', '', $time);
+					}
+				}
+
+				if (!empty($sessions)) {
+					return view('agenda', compact('groupedSessions', 'title', 'cellIds', 'cellIdsFriday', 'time_range', 'time_range_friday'));	
+				}
+
+				if (empty($result)) {
+          return response()->json(['message' => 'JSON not found'], 404);
+        }
   	}
 }
