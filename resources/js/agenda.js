@@ -1,14 +1,13 @@
-// When the user scrolls the page, execute myFunction
-window.onscroll = function() {myFunction()};
+window.onscroll = function() { affixedRooms() };
 
 // Get the header
 var header = document.getElementById("rooms-bar");
 
 // Get the offset position of the navbar
-var sticky = header.offsetTop;
+var sticky = header.getBoundingClientRect().top + document.documentElement.scrollTop;
 
 // Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
-function myFunction() {
+function affixedRooms() {
   if (window.pageYOffset > sticky) {
     header.classList.add("sticky");
   } else {
