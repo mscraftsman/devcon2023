@@ -1,4 +1,13 @@
+.page--agenda {
+	overflow: hidden;
+	--width: 1262px;
+}
+
+
+
 .track__session {
+	width: var(--width);
+
 	table {
 			width: 100%;
 	}

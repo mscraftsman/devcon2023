@@ -1,6 +1,6 @@
 @extends('layouts.main')
 @section('content')
-  <div x-data="{ selectedOption: 'thursday' }">
+  <div class="page--agenda" x-data="{ selectedOption: 'thursday' }">
 
     <section class="bg-slate-100">
       <section class="pt-20 pb-10 max-w-4xl px-3 mb-7 mx-auto ">
