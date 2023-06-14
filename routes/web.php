@@ -49,5 +49,3 @@ Route::get('/speakers', [SpeakersController::class, 'index'])->name('speakers');
 Route::get('/agenda', [AgendaController::class, 'index'])->name('agenda');
 
 Route::get('/speaker/{id}', [SpeakerController::class, 'searchById'])->name('speaker');
-
-Route::get("/sessionsdata", [SessionsContentController::class, "index"]);

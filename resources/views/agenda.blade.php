@@ -37,13 +37,13 @@
                       border-2
                       cursor-pointer 
                       hover:text-gray-600
-                      hover:bg-gray-100
+                      hover:bg-gray-200
                       peer-checked:border-mustard 
                       peer-checked:border-2
                       peer-checked:bg-mustard
                       peer-checked:text-black 
-                      peer-checked:hover:bg-black
-                      peer-checked:hover:text-mustard
+                      peer-checked:hover:bg-white
+                      peer-checked:hover:text-black
                       peer-checked:hover:border-2
                       peer-checked:hover:border-mustard
                       ">                           
@@ -75,13 +75,13 @@
                       border-2
                       cursor-pointer 
                       hover:text-gray-600
-                      hover:bg-gray-100
+                      hover:bg-gray-200
                       peer-checked:border-mustard 
                       peer-checked:border-2
                       peer-checked:bg-mustard
                       peer-checked:text-black 
-                      peer-checked:hover:bg-black
-                      peer-checked:hover:text-mustard
+                      peer-checked:hover:bg-white
+                      peer-checked:hover:text-black
                       peer-checked:hover:border-2
                       peer-checked:hover:border-mustard
                       ">                           
@@ -113,13 +113,13 @@
                       border-2
                       cursor-pointer 
                       hover:text-gray-600
-                      hover:bg-gray-100
+                      hover:bg-gray-200
                       peer-checked:border-mustard 
                       peer-checked:border-2
                       peer-checked:bg-mustard
                       peer-checked:text-black 
-                      peer-checked:hover:bg-black
-                      peer-checked:hover:text-mustard
+                      peer-checked:hover:bg-white
+                      peer-checked:hover:text-black
                       peer-checked:hover:border-2
                       peer-checked:hover:border-mustard
                       ">                           

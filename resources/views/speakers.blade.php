@@ -21,7 +21,7 @@
 										{{ $speaker['fullName'] }}
 									</div>
 									<div class="font-dm text-sm font-bold text-slate-400">
-										{{ $speaker['tagLine'] }}
+										{{ trimText($speaker['tagLine']) }}
 									</div>
 								</figcaption>
 							</div>
