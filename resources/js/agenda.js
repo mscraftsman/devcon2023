@@ -14,3 +14,14 @@ function affixedRooms() {
     header.classList.remove("sticky");
   }
 }
+
+var container = document.querySelector('.sessions__column');
+var fixedElements = document.querySelectorAll('.time__tag');
+
+container.addEventListener('scroll', function () {
+  var scrollLeft = container.scrollLeft;
+
+  fixedElements.forEach(function(fixedElement) {
+    fixedElement.style.transform = 'translateX(' + scrollLeft + 'px) translateY(-30px)';
+  });
+});
