@@ -149,7 +149,7 @@
           </div>
         </div>
 
-        <div class="day--thurday--agenda" id="agenda-thursday" x-show="selectedOption == 'thursday'">
+        <div class="day--agenda day--thurday--agenda" id="agenda-thursday" x-show="selectedOption == 'thursday'">
           <div class="track__session" style="grid-template-areas: {{ generateGridTemplateAreas($cellIds) }}">
             @foreach($time_range as $time)
               <div 

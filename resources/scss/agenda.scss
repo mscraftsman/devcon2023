@@ -1,9 +1,17 @@
 .page--agenda {
-	overflow: hidden;
+	// overflow: hidden;
 	--width: 1262px;
 }
 
+.day--agenda {
+	
+}
 
+.sessions__column {
+	overflow-x: scroll;
+	-webkit-overflow-scrolling: touch;
+		/* For smooth scrolling on iOS */
+}
 
 .track__session {
 	width: var(--width);
@@ -44,6 +52,8 @@
 }
 
 .time__track {
+
+	position: relative;
 
 	.line {
 		height: 1px;
