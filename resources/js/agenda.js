@@ -1,29 +1,44 @@
-window.onscroll = function() { affixedRooms() };
+let agendaPage = document.getElementsByClassName("page--agenda");
 
-let header = document.getElementById("rooms-bar");
-let sticky = header.getBoundingClientRect().top + document.documentElement.scrollTop;
+if (agendaPage.length == 1) {
 
-function affixedRooms() {
-  if (window.pageYOffset > sticky) {
-    header.classList.add("sticky");
-  } else {
-    header.classList.remove("sticky");
+  let header = document.getElementById("rooms-bar");
+  let sticky = header.getBoundingClientRect().top + document.documentElement.scrollTop;
+
+  function affixedRooms() {
+    if (window.pageYOffset > sticky) {
+      header.classList.add("sticky");
+    } else {
+      header.classList.remove("sticky");
+    }
   }
-}
 
-let container = document.querySelector('.sessions__column');
-let fixedElements = document.querySelectorAll('.time__tag');
 
-container.addEventListener('scroll', function () {
-  let scrollLeft = container.scrollLeft;
+  let container = document.querySelector('.sessions__column');
+  let fixedElements = document.querySelectorAll('.time__tag');
+  let scrollLeft = '';
 
-  fixedElements.forEach(function(fixedElement) {
-    fixedElement.style.transform = 'translateX(' + scrollLeft + 'px) translateY(-30px)';
+  container.addEventListener('scroll', function () {
+     scrollLeft = container.scrollLeft;
+
+    fixedElements.forEach(function(fixedElement) {
+      fixedElement.style.transform = 'translateX(' + scrollLeft + 'px) translateY(-30px)';
+    });
+
+    if (window.pageYOffset > sticky) {
+      header.style.transform = 'translateX(' + -scrollLeft + 'px)';
+    } else {
+      header.style.transform = 'none';
+    }
   });
 
-  if (window.pageYOffset > sticky) {
-    header.style.transform = 'translateX(' + -scrollLeft + 'px)';
-  } else {
-    header.style.transform = 'none';
-  }
-});
+  window.addEventListener('scroll', function () {
+    affixedRooms();
+
+    if (window.pageYOffset > sticky) {
+      header.style.transform = 'translateX(' + -scrollLeft + 'px)';
+    } else {
+      header.style.transform = 'none';
+    }
+  });
+}

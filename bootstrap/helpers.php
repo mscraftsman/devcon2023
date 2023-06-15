@@ -81,3 +81,17 @@ if (! function_exists('getSpeakerPicture')) {
         return $photo;
     }
 }
+
+
+if (!function_exists('trimText')) {
+    function trimText($text, $maxLength = 80)
+    {
+        if (strlen($text) > $maxLength) {
+            $trimmedText = substr($text, 0, $maxLength - 3) . '...';
+        } else {
+            $trimmedText = $text;
+        }
+
+        return $trimmedText;
+    }
+}

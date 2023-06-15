@@ -17,9 +17,9 @@
 					</button>
 			</div>
 			<div class="text-gray-100 text-md font-bold font-astronomus uppercase max-h-0 lg:max-h-full overflow-hidden transition-all" style="" x-ref="menu" x-bind:style="open == true ? 'max-height: ' + $refs.menu.scrollHeight + 'px' : ''">
-				<div class="mt-3 pb-3 sm:pb-0 lg:mt-0 flex flex-col lg:flex-row gap-3 lg:gap-6 lg:items-center">
-					<a class="hover:text-mustard transition hover:ease-in-out duration-300 hidden" href="#">Agenda</a>
-					<a class="hover:text-mustard transition hover:ease-in-out duration-300 hidden" href="#">Speakers</a>
+				<div class="mt-4 pb-2 sm:pb-0 lg:mt-0 flex flex-col lg:flex-row gap-3 lg:gap-6 lg:items-center">
+					<a href="{{ route('agenda') }}" class="{{ request()->is('agenda') ? 'text-mustard' : '' }} hover:text-mustard transition hover:ease-in-out duration-300" href="#">Agenda</a>
+					<a href="{{ route('speakers') }}" class="{{ request()->is('speakers') ? 'text-mustard' : '' }} hover:text-mustard transition hover:ease-in-out duration-300" href="#">Speakers</a>
 					<a class="hover:text-mustard transition hover:ease-in-out duration-300 hidden" href="#">Community</a>
 					<a class="hover:text-mustard transition hover:ease-in-out duration-300 hidden" href="#">Extras</a>
 					<a class="bg-red-600 px-2 py-2 pt-3 px-4 hover:bg-red-700 transition hover:ease-in-out duration-500 rounded-sm leading-1" href="https://drive.google.com/file/d/10wkqMQZ32TacDiVoGPDR7Y0rPZlNXbHS/view" target="_blank">Become a sponsor</a>
