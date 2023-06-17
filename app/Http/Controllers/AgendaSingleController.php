@@ -4,19 +4,18 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 
 class AgendaSingleController extends Controller {
-	public function searchById($id) {
+	public function searchSessionById($id) {
 		$sessions = json_decode(file_get_contents(storage_path() . "/data/sessions.json"), true);
-        $groupedSessions = [];
+        $sessionsArr = [];
 
         foreach ($sessions as $day) {
-            $dayGroup = $day['groupName'];
             foreach ($day['sessions'] as $session) {
-                $id = $session['id'];
-                $groupedSessions[$id] = $session;
+                $id_session = $session['id'];
+                $sessionsArr[$id_session] = $session;
             }
         }
 
-		$result = array_filter($groupedSessions, function ($object) use ($id) {
+		$result = array_filter($sessionsArr, function ($object) use ($id) {
             return $object['id'] == $id;
         });
 
@@ -29,7 +28,7 @@ class AgendaSingleController extends Controller {
                 break; 
             }
 
-		    return view('agendaSingle', compact('session', 'groupedSessions', 'title'));
+		    return view('session', compact('session', 'sessionsArr', 'title'));
         }
         if (empty($result)) {
             return response()->json(['message' => 'Object not found'], 404);

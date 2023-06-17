@@ -53,6 +53,56 @@ if (! function_exists('calculatePlacement')) {
     }
 }
 
+if (! function_exists('findTimeIndex')) {
+    function findTimeIndex($time_range, $time) {
+        $index = array_search($time, $time_range);
+        return $index !== false ? $index : -1;
+    }
+}
+
+if (! function_exists('findRoomIndex')) {
+    function findRoomIndex($rooms, $room) {
+        $index = array_search(strtolower($room), $rooms);
+        return $index !== false ? $index : -1;
+    }
+}
+
+
+if (! function_exists('calculatePlacementGridRow')) {
+    function calculatePlacementGridRow($session, $time_range)
+    {
+
+        $startsAt = $session['startsAt'];
+        $endsAt = $session['endsAt'];
+
+        $startsAtdateTime = new DateTime($startsAt);
+        $startsAtTime = $startsAtdateTime->format('H:i');
+
+        $endsAtdateTime = new DateTime($endsAt);
+        $endsAtTime = $endsAtdateTime->format('H:i');
+        
+        $grid_row_start = findTimeIndex($time_range, $startsAtTime) + 1;
+        $grid_row_end = findTimeIndex($time_range, $endsAtTime) + 1;
+
+        return $grid_row_start . ' / ' . $grid_row_end;
+    }
+}
+
+
+if (! function_exists('calculatePlacementGridColumn')) {
+    function calculatePlacementGridColumn($session, $rooms)
+    {
+
+        $room = $session['room'];
+        
+        $grid_column_start = findRoomIndex($rooms, $room) + 1;
+        $grid_column_end = $grid_column_start + 1;
+
+        return $grid_column_start . ' / ' . $grid_column_end;
+    }
+}
+
+
 if (! function_exists('calculateTimePlacement')) {
     function calculateTimePlacement($time)
     {
