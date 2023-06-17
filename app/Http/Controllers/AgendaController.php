@@ -61,7 +61,7 @@ class AgendaController extends Controller {
 				}
 
 				if (!empty($sessions)) {
-					return view('agenda', compact('groupedSessions', 'title', 'cellIds', 'cellIdsFriday', 'time_range', 'time_range_friday'));	
+					return view('agenda', compact('groupedSessions', 'title', 'cellIds', 'cellIdsFriday', 'roomNames', 'time_range', 'time_range_friday'));	
 				}
 
 				if (empty($result)) {

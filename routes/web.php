@@ -8,7 +8,6 @@ use App\Http\Controllers\SpeakerController;
 use App\Http\Controllers\AgendaSingleController;
 use App\Http\Controllers\SessionsContentController;
 
-
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -35,17 +34,8 @@ Route::get('/community', function () {
     return view('community', compact('title'));
 })->name('community');
 
-// Route::get('/agenda', function () {
-//     $title = 'MSCC — Agenda';
-//     return view('agenda', compact('title'));
-// })->name('agenda');
-
-// Route::get('/speakers', function () {
-//     $title = 'MSCC — Speakers';
-//     return view('speakers', compact('title'));
-// })->name('speakers');
-
 Route::get('/speakers', [SpeakersController::class, 'index'])->name('speakers');
 Route::get('/speaker/{id}', [SpeakerController::class, 'searchById'])->name('speaker');
+
+Route::get('/agenda/{id}', [AgendaSingleController::class, 'searchSessionById'])->name('session');
 Route::get('/agenda', [AgendaController::class, 'index'])->name('agenda');
-Route::get('/agenda/{id}', [AgendaSingleController::class, 'searchById'])->name('agendaSingle');

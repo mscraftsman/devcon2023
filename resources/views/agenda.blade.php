@@ -167,7 +167,7 @@
                 @foreach($value as $key => $session)
                   <a
                       class="session__wrapper px-4 py-3 rounded-md bg-slate-100 block mb-3 hover:bg-slate-200 hover:drop-shadow-md transition-all hover:scale-105" 
-                      style="grid-area: {{ calculatePlacement($session) }}"
+                      style="grid-row: {{ calculatePlacementGridRow($session, $time_range) }}; grid-column: {{ calculatePlacementGridColumn($session, $roomNames) }}"
                       data-room="{{ $session['room'] }}"
                       href="/agenda/{{ $session['id'] }}"
                       >
@@ -208,7 +208,7 @@
                 @foreach($value as $key => $session)
                   <a
                       class="session__wrapper px-4 py-3 rounded-md bg-slate-100 block mb-3 hover:bg-slate-200 hover:drop-shadow-md transition-all hover:scale-105" 
-                      style="grid-area: {{ calculatePlacement($session) }}"
+                      style="grid-row: {{ calculatePlacementGridRow($session, $time_range_friday) }}; grid-column: {{ calculatePlacementGridColumn($session, $roomNames) }}"
                       data-room="{{ $session['room'] }}"
                       href="/agenda/{{ $session['id'] }}"
                       >
@@ -249,7 +249,7 @@
                 @foreach($value as $key => $session)
                   <a
                       class="session__wrapper px-4 py-3 rounded-md bg-slate-100 block mb-3 hover:bg-slate-200 hover:drop-shadow-md transition-all hover:scale-105" 
-                      style="grid-area: {{ calculatePlacement($session) }}"
+                      style="grid-row: {{ calculatePlacementGridRow($session, $time_range_friday) }}; grid-column: {{ calculatePlacementGridColumn($session, $roomNames) }}"
                       data-room="{{ $session['room'] }}"
                       href="/agenda/{{ $session['id'] }}"
                       >
