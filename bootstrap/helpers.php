@@ -112,23 +112,23 @@ if (! function_exists('calculateTimePlacement')) {
     }
 }
 
-if (! function_exists('getSpeakerPicture')) {
-    function getSpeakerPicture($id)
+if (! function_exists('getSpeaker')) {
+    function getSpeaker($id)
     {
 		$speakers = json_decode(file_get_contents(storage_path() . "/data/speakers.json"), true);
 		$result = array_filter($speakers, function ($object) use ($id) {
             return $object['id'] == $id;
         });
 
-        $photo = '';
+        $speaker = '';
 
         if (!empty($result)) {
             foreach($result as $s) {
-                $photo = $s['profilePicture'];
+                $speaker = $s;
                 break; 
             }
         }
-        return $photo;
+        return $speaker;
     }
 }
 

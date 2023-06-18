@@ -178,8 +178,8 @@
                     <div class="speaker text-sm mt-2">
                       @foreach($session['speakers'] as $key => $speaker)
                         <div class="speaker--headshot flex items-center mb-1">
-                          <img src="{{ getSpeakerPicture($speaker['id']) }}" class="w-8 h-8 rounded-full mr-2" alt="{{$speaker['name']}}">
-                          <div href="/speaker/{{ $speaker['id'] }}">{{$speaker['name']}}</div>
+                          <img src="{{ getSpeaker($speaker['id'])['profilePicture'] }}" class="w-8 h-8 rounded-full mr-2" alt="{{$speaker['name']}}">
+                          <div href="/speaker/{{ $speaker['id'] }}">{{ $speaker['name'] }}</div>
                         </div>
                       @endforeach
                     </div>
@@ -219,7 +219,7 @@
                     <div class="speaker text-sm mt-2">
                       @foreach($session['speakers'] as $key => $speaker)
                         <div class="speaker--headshot flex items-center mb-1">
-                          <img src="{{ getSpeakerPicture($speaker['id']) }}" class="w-8 h-8 rounded-full mr-2" alt="{{$speaker['name']}}">
+                          <img src="{{ getSpeaker($speaker['id'])['profilePicture'] }}" class="w-8 h-8 rounded-full mr-2" alt="{{$speaker['name']}}">
                           <div href="/speaker/{{ $speaker['id'] }}">{{$speaker['name']}}</div>
                         </div>
                       @endforeach
@@ -260,7 +260,7 @@
                     <div class="speaker text-sm mt-2">
                       @foreach($session['speakers'] as $key => $speaker)
                         <div class="speaker--headshot flex items-center mb-1">
-                          <img src="{{ getSpeakerPicture($speaker['id']) }}" class="w-8 h-8 rounded-full mr-2" alt="{{$speaker['name']}}">
+                          <img src="{{ getSpeaker($speaker['id'])['profilePicture'] }}" class="w-8 h-8 rounded-full mr-2" alt="{{$speaker['name']}}">
                           <div href="/speaker/{{ $speaker['id'] }}">{{$speaker['name']}}</div>
                         </div>
                       @endforeach
