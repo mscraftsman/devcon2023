@@ -63,7 +63,7 @@
 					@endif
 					<hr class="mt-5 px-20"/>
 					<div class="font-dm text-md font-regular leading-normal mt-5 text-slate-400">
-						{{ $s['bio'] }}
+						{!! nl2br(e($s['bio'])) !!}
 					</div>
 				</figcaption>
 			</div>
