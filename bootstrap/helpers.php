@@ -16,6 +16,14 @@ if (! function_exists('convertDateTimeToTime')) {
     }
 }
 
+if (! function_exists('convertDateTime')) {
+    function convertDateTime($dateTimeString)
+    {
+        $dateTime = new DateTime($dateTimeString);
+        return $dateTime->format('l d F');
+    }
+}
+
 if (! function_exists('generateGridTemplateAreas')) {
     function generateGridTemplateAreas($cellIds)
     {
