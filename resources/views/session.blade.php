@@ -27,7 +27,7 @@
 
 	<div class="session__container mt-3">
 		<div class="pt-6 space-y-3">
-			<div class="font-astronomus uppercase text-3xl font-bold text-slate-800 mb-1 text-center md:text-left">
+			<div class="font-astronomus uppercase text-3xl font-bold text-purple mb-5 mt-3 text-center md:text-left">
 				{{ $s['title'] }}
 			</div>
 			<div class="speakers--wrapper max-w-4xl mx-auto flex">
@@ -47,12 +47,31 @@
 							</div>
 						</div>
 
-						<div class="font-dm text-md font-bold text-slate-500 ml-2">{{ $speaker['name'] }}</div>
+						<div class="font-astronomus text-lg font-bold text-slate-800 ml-3">{{ $speaker['name'] }}</div>
 					</a>
 				@endforeach
 			</div>
-			<div class="font-dm text-md font-regular leading-normal mt-8 text-slate-400">
-				{{ $s['description'] }}
+
+			<hr class="mt-2 mb-2">
+
+			<div class="location__datetime--wrapper flex font-md font-bold">
+				<div class="location--wrapper font-dm mr-5 flex items-center">
+					<img class="h-6" src="{{ asset('images/svg/location.svg') }}" alt="">
+					<span class="ml-2">{{ $s['room'] }}</span>
+				</div>
+
+				<div class="time--wrapper font-dm mr-5 flex items-center">
+					<img class="h-6" src="{{ asset('images/svg/calendar.svg') }}" alt="">
+					<span class="ml-2">
+						{{convertDateTime($s['startsAt'])}}, {{convertDateTimeToTime($s['startsAt'])}} - {{convertDateTimeToTime($s['endsAt'])}}
+					</span>
+				</div>
+
+			</div>
+
+			<hr class="mt-2 mb-2">
+			<div class="font-dm text-lg font-regular leading-normal mt-15 text-slate-400">
+				{{ $s['description']}}
 			</div>
 		</div>
 	</div>
