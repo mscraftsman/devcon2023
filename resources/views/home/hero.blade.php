@@ -60,9 +60,11 @@
 			<div class="mt-2 mb-2 text-center text-1xl sm:text-2xl text-mustard font-bold font-spotnik uppercase">
 				20 - 22 July, Caudan Arts Centre.
 			</div>
-
 			<div class="mt-2 text-gray-200 font-bold text-center font-spotnik uppercase">
 				Innovation • Technology • Community
+			</div>
+			<div class="registration__button mt-5 flex justify-center">
+				<a class="font-bold font-astronomus text-white bg-red-800 px-2 py-2 pt-3 px-7 hover:bg-red-700 transition hover:ease-in-out duration-500 rounded-sm leading-1" href="https://docs.google.com/forms/d/e/1FAIpQLSdmsUQgVUhy8SWmWez_xBwbIizKpQMH0J_bfdJAAz2fD2k2Wg/viewform" target="_blank">Register</a>
 			</div>
 		</div>
 
