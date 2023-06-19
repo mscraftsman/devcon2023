@@ -3,8 +3,8 @@
 	<section class="bg-slate-100">
 		<section class="pt-20 pb-10 max-w-4xl px-3 mb-7 mx-auto ">
 			<h2 class="text-center font-astronomus font-bold uppercase font-dm text-purple pt-10">Unleashing Tech Brilliance Together</h2>
-			<h1 class="text-center mt-1 text-gray-700 text-6xl font-astronomus uppercase font-bold mb-1">Speakers</h1>
-			<p class="text-center text-slate-400 font-dm max-w-3xl text-lg">Join us for a transformative experience as our distinguished speakers, industry pioneers, and thought leaders converge to illuminate the latest frontiers of technology</p>
+			<h1 class="text-center mt-1 text-gray-700 font-astronomus uppercase font-bold mb-1 text-4xl sm:text-6xl">Speakers</h1>
+			<p class="text-center text-slate-400 font-dm max-w-3xl text-sm sm:text-lg">Join us for a transformative experience as our distinguished speakers, industry pioneers, and thought leaders converge to illuminate the latest frontiers of technology</p>
 		</section>
 	</section>
 	<section class="mt-10 pt-8 max-w-6xl px-3 mx-auto">

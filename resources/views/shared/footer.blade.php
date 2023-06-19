@@ -31,8 +31,8 @@
 				<ul>
 					<li><a href="{{ route('code-of-conduct') }}">Code of conduct</a></li>
 					<li><a target="_blank" href="https://drive.google.com/file/d/10wkqMQZ32TacDiVoGPDR7Y0rPZlNXbHS/view">Become a sponsor</a></li>
-					<!-- <li class=""><a href="/">Extras</a></li> -->
-					<!-- <li class=""><a href="/">Squad</a></li> -->
+					<li><a href="{{ route('agenda') }}">Agenda</a></li>
+					<li><a href="{{ route('speakers') }}">Speakers</a></li>
 				</ul>
 			</div>
 		</div>
