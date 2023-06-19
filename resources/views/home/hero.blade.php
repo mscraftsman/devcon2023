@@ -63,9 +63,9 @@
 			<div class="mt-2 text-gray-200 font-bold text-center font-spotnik uppercase">
 				Innovation • Technology • Community
 			</div>
-			<div class="registration__button mt-5 flex justify-center">
+			<!-- <div class="registration__button mt-5 flex justify-center">
 				<a class="font-bold font-astronomus text-white bg-red-800 px-2 py-2 pt-3 px-7 hover:bg-red-700 transition hover:ease-in-out duration-500 rounded-sm leading-1" href="https://docs.google.com/forms/d/e/1FAIpQLSdmsUQgVUhy8SWmWez_xBwbIizKpQMH0J_bfdJAAz2fD2k2Wg/viewform" target="_blank">Register</a>
-			</div>
+			</div> -->
 		</div>
 
 		<div class="custom-shape-divider-bottom-1674392093">
