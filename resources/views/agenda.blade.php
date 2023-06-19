@@ -5,8 +5,8 @@
     <section class="bg-slate-100">
       <section class="pt-20 pb-10 max-w-4xl px-3 mb-7 mx-auto ">
         <h2 class="text-center font-astronomus font-bold uppercase font-dm text-purple pt-10">Tropical Tech Revolution Unveiled</h2>
-        <h1 class="text-center mt-1 text-gray-700 text-6xl font-astronomus uppercase font-bold mb-1">Agenda</h1>
-        <p class="text-center text-slate-400 font-dm max-w-3xl text-lg">Experience the ultimate blend of paradise and progress at the DevCon, where industry pioneers and disruptors converge to shape the destiny of technology</p>
+        <h1 class="text-center mt-1 text-gray-700 font-astronomus uppercase font-bold mb-1 text-4xl sm:text-6xl ">Agenda</h1>
+        <p class="text-center text-slate-400 font-dm max-w-3xl text-sm sm:text-lg">Experience the ultimate blend of paradise and progress at the DevCon, where industry pioneers and disruptors converge to shape the destiny of technology</p>
       </section>
     </section>
 

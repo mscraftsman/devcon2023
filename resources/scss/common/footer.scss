@@ -205,13 +205,17 @@
 
 			.list--menu {
 				ul {
-					display: block;
+					display: grid;
+					grid-template-columns: 1fr 1fr;
+					justify-items: center;
 
 					li {
 						display: flex;
 						align-items: center;
 						justify-content: center;
 						margin-bottom: 15px;
+						margin-right: 0;
+						width: 150px;
 					}
 				}
 			}
