@@ -281,5 +281,28 @@
         </div>
       </div>
     </section>
+
+    <section class="sponsors">
+      <section class="pt-2 max-w-4xl px-3 mb-2 mx-auto">
+        <div class="sponsor__section mt-10" x-show="selectedOption == 'thursday'">
+          <h3 class="text-center uppercase font-astronomus text-1xl sm:text-2xl text-purple mb-2">Happy hour sponsored by</h3>
+          <div class="sponsor--logo-wrapper">
+            <a href="https://www.spoonconsulting.com/s/" target="_blank" class="inline">
+              <img class="sponsor--logo" src="{{ asset('images/sponsors/spoon-consulting.svg') }}" />
+            </a>
+          </div>
+          <h3 class="text-center uppercase font-astronomus text-1xl sm:text-2xl text-slate-500 mt-6">17:30 to 20:00</h3>
+        </div>
+        <div class="sponsor__section mt-10" x-show="selectedOption == 'friday'">
+          <h3 class="text-center uppercase font-astronomus text-1xl sm:text-2xl text-purple mb-2">Entertainment Hour by</h3>
+          <div class="sponsor--logo-wrapper">
+            <a href="https://www.spoonconsulting.com/s/" target="_blank" class="inline">
+              <img class="sponsor--logo" src="{{ asset('images/sponsors/fake.png') }}" />
+            </a>
+          </div>
+          <h3 class="text-center uppercase font-astronomus text-1xl sm:text-2xl text-slate-500 mt-6">As from 18:00</h3>
+        </div>
+      </section>
+    </section>
   </div>
 @endsection

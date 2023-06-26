@@ -93,3 +93,19 @@
 	grid-row: 3 / 4;
 	grid-column: 3/4;
 }
+
+.sponsor__section {
+	// display: flex;
+
+	.sponsor--logo-wrapper {
+		text-align: center;
+		max-width: 200px;
+		margin: 0 auto;
+
+		.sponsor--logo {
+			width: 100%;
+		}
+	}
+
+
+}
