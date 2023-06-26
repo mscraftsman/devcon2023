@@ -296,7 +296,7 @@
         <div class="sponsor__section mt-10" x-show="selectedOption == 'friday'">
           <h3 class="text-center uppercase font-astronomus text-1xl sm:text-2xl text-purple mb-2">Entertainment Hour by</h3>
           <div class="sponsor--logo-wrapper">
-            <a href="https://www.spoonconsulting.com/s/" target="_blank" class="inline">
+            <a href="https://alchimiecolorist.com/" target="_blank" class="inline">
               <img class="sponsor--logo" src="{{ asset('images/sponsors/fake.png') }}" />
             </a>
           </div>
