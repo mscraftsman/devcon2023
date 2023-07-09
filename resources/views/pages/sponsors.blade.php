@@ -131,7 +131,7 @@
 	<div class="sponsors-logo-wrapper jupiter--sponsors mb-10">
 		<div class="sponsor small py-5 px-5 md:py-8 md:px-10">
 			<a href="https://www.novity.io/" target="_blank">
-				<img src="{{ asset('images/sponsors/novity.svg') }}" />
+				<img src="{{ asset('images/sponsors/novity.png') }}" />
 			</a>
 		</div>
 	</div>
