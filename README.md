@@ -4,11 +4,13 @@
 
 This project is built using Laravel/Blade/Tailwind CSS.
 
-## Docker instructions
+## Clone instructions
 
 ```
-git clone git@github.com:ishwon/2023.mscc.mu.git
+git clone git@github.com:mscraftsman/devcon2023.git
 ```
+
+## Docker instructions
 
 ```
 docker-compose up -d
