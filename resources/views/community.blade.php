@@ -15,6 +15,7 @@
 		<p class="mb-2">GDGs are local groups of developers who are specifically interested in Google products and APIs. Each local group is called a GDG chapter and can host a variety of technical activities for developers - from just a few people getting together to watch our latest videos, to large gatherings with demos and tech talks, to hackathons.</p>
 		<p>Disclaimer: GDG Mauritius is an independent user group; our activities and the opinions expressed here should in no way be linked to Google, the corporation.</p>
 	</section>
+
 	<section class="mt-10 max-w-7xl px-3 mx-auto bg-gradient-to-r from-gray-200 to-gray-200 px-5 py-5 rounded-lg drop-shadow-xl mb-20">
 		<h2 class="mt-1 mb-2 text-gray-700 text-2xl font-astronomus">Python Mauritius User Group</h2>
 		<p>
@@ -46,5 +47,24 @@
           end of year reports. Looking forward to meet you ✨.
         </p>
 	</section>
+
+    <section class="mt-10 max-w-7xl px-3 mx-auto bg-gradient-to-r from-gray-200 to-gray-200 px-5 py-5 rounded-lg drop-shadow-xl mb-20">
+        <h2 class="mt-1 mb-2 text-gray-700 text-2xl font-astronomus">openSUSE Mauritius</h2>
+        <p>
+            A small club of openSUSE & SLE users/enthusiasts on the island. We also
+            manage the <a href="https://mirror.cloud.mu">Linux mirror servers</a> in
+            Mauritius for a few popular distros. We will be having more details about
+            the club published at <a href="https://opensuse.mu">opensuse.mu</a> soon.
+        </p>
+            We are organising a Linux Bootcamp on Friday 1 p.m. — 3 p.m. in Tatooine
+            room on the ground floor. Bring your Linux questions!
+        </p>
+
+        <p>
+            We will have a session about the Linux mirror project right after the
+            Bootcamp at 3 p.m. in the same room.
+        </p>
+
+    </section>
 	
 @endsection
