@@ -57,13 +57,14 @@
             the club published at <a href="https://opensuse.mu">opensuse.mu</a> soon.
         </p>
         <p class="mt-2">
-            We are organising a Linux Bootcamp on Friday 1 p.m. — 3 p.m. in Tatooine
-            room on the ground floor. Bring your Linux questions!
+            We are organising a <a href="https://conference.mscc.mu/agenda/454720">Linux
+            Bootcamp</a> on Friday 1 p.m. — 3 p.m. in Tatooine room on the ground floor.
+            Bring your Linux questions!
         </p>
 
         <p class="mt-2">
-            We will have a session about the Linux mirror project right after the
-            Bootcamp at 3 p.m. in the same room.
+            We will have a session about the <a href="https://conference.mscc.mu/agenda/454708">
+            Linux mirror project</a> right after the Bootcamp at 3 p.m. in the same room.
         </p>
 
     </section>
