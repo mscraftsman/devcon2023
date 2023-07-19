@@ -30,12 +30,12 @@
           <a href="https://www.pymug.com">pymug.com</a>
         </p>
 
-        <p>
+        <p class="mt-2">
           We'll be present at the DevCon which is an amazing community-driven
           event.
         </p>
 
-        <p>
+        <p class="mt-2">
           The Pymug organises year-round events, topic days, meetups, from
           scratch sessions as well as university topic coverage. Have a look at
           our
@@ -56,11 +56,12 @@
             Mauritius for a few popular distros. We will be having more details about
             the club published at <a href="https://opensuse.mu">opensuse.mu</a> soon.
         </p>
+        <p class="mt-2">
             We are organising a Linux Bootcamp on Friday 1 p.m. — 3 p.m. in Tatooine
             room on the ground floor. Bring your Linux questions!
         </p>
 
-        <p>
+        <p class="mt-2">
             We will have a session about the Linux mirror project right after the
             Bootcamp at 3 p.m. in the same room.
         </p>
