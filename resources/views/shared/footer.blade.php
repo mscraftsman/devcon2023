@@ -33,6 +33,7 @@
 					<li><a target="_blank" href="https://drive.google.com/file/d/10wkqMQZ32TacDiVoGPDR7Y0rPZlNXbHS/view">Become a sponsor</a></li>
 					<li><a href="{{ route('agenda') }}">Agenda</a></li>
 					<li><a href="{{ route('speakers') }}">Speakers</a></li>
+					<li><a href="{{ route('community') }}">Community</a></li>
 				</ul>
 			</div>
 		</div>
