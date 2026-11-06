@@ -127,7 +127,7 @@
 					the Developers Conference is a must. With the Virtual Conference, we missed the human touch where
 					people exchange and interact with each other."
 			/>
-			<meta property="og:url" ontent="https://conference.mscc.mu" />
+			<meta property="og:url" content="https://conference.mscc.mu" />
 			<meta
 				property="og:site_name"
 				content="Being the largest IT Community in Mauritius, we are so passionate about the tech world that doing

@@ -8,21 +8,20 @@
 	],
 	"license": "MIT",
 	"require": {
-		"php": "^8.0.2",
+		"php": "^8.2",
 		"guzzlehttp/guzzle": "^7.2",
-		"laravel/framework": "^9.19",
-		"laravel/sanctum": "^3.0",
-		"laravel/tinker": "^2.7",
-		"nesbot/carbon": "^2.67"
+		"laravel/framework": "^12.0",
+		"laravel/sanctum": "^4.0",
+		"laravel/tinker": "^2.10.1",
+		"nesbot/carbon": "^3.0"
 	},
 	"require-dev": {
-		"fakerphp/faker": "^1.9.1",
-		"laravel/pint": "^1.0",
-		"laravel/sail": "^1.0.1",
-		"mockery/mockery": "^1.4.4",
-		"nunomaduro/collision": "^6.1",
-		"phpunit/phpunit": "^9.5.10",
-		"spatie/laravel-ignition": "^1.0"
+		"fakerphp/faker": "^1.23",
+		"laravel/pint": "^1.13",
+		"laravel/sail": "^1.41",
+		"mockery/mockery": "^1.6",
+		"nunomaduro/collision": "^8.6",
+		"phpunit/phpunit": "^11.5.3"
 	},
 	"autoload": {
 		"psr-4": {
@@ -64,7 +63,11 @@
 		"preferred-install": "dist",
 		"sort-packages": true,
 		"allow-plugins": {
-			"pestphp/pest-plugin": true
+			"pestphp/pest-plugin": true,
+			"php-http/discovery": true
+		},
+		"platform": {
+			"php": "8.2.0"
 		}
 	},
 	"minimum-stability": "stable",
